@@ -1,32 +1,36 @@
-# React + TypeScript + Vite
+# Physics 161 Exam Prep
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A physics exam simulator: 7 randomly-generated questions, 40-minute timer, drawn from a
+150-exercise question bank (kinematics, vectors, circular motion, Newton's laws, and more).
+Each question is a parameterized generator — numbers change on every attempt, but the
+underlying physics, formula, and difficulty stay the same. Answers, solution steps, and
+diagrams are all computed deterministically from the same generated parameters, never
+guessed.
 
-Currently, two official plugins are available:
+**Live:** https://phys161examprepapp.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- 40-minute, 7-question exam with balanced topic coverage, a persistent countdown (survives
+  page refresh), flagging, and a question navigator
+- Practice Mode — pick a topic/difficulty, regenerate variants, reveal hints/solutions, no timer
+- Results with a full topic/question breakdown and KaTeX-rendered step-by-step solutions
+- History and Statistics (score trend, topic/difficulty accuracy, personalized recommendations)
+- A Question Bank debug view showing generated parameters/seed/validation for every question
+- ~40 parameter-driven SVG diagrams that update with the question's own numbers
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack
 
-## Expanding the Oxlint configuration
+React 19 + TypeScript + Vite + Tailwind CSS v4, KaTeX, Recharts, React Router. No backend —
+state and exam history live in the browser via a small storage-adapter interface designed so
+a real backend could be swapped in later without touching UI code.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Development
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev            # start the dev server
+npm run build           # typecheck + production build
+npm run validate:bank   # generate ~3000 random variants across all 150 questions, checking for exceptions/non-finite answers
+npm run validate:spotcheck  # verify formulas against the source exercise set's known answers
 ```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
