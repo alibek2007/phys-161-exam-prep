@@ -270,11 +270,11 @@ export const applicationsQuestions = [
     prompt: (p) =>
       `Block A weighs ${fmt(p.WA)} N and B weighs ${fmt(p.WB)} N. The coefficient of kinetic friction between block B and the surfaces is ${fmt(p.mu)}, and the coefficient of static friction between block A and block B is ${fmt(p.mu)}. Find the magnitude of the horizontal force F necessary to drag block B to the left at constant speed if A rests on B and moves with it.`,
     compute: (p) => ({ value: dragBlockTogether(p.WA, p.WB, p.mu), unit: 'N', tolerance: { mode: 'relative', value: 0.01 } }),
-    solution: (p, answer) => [
+    solution: (_p, answer) => [
       { label: 'Formula', math: 'F = \\mu(W_A+W_B)' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'blockOnBlock', props: { together: true } }),
+    diagram: (_p) => ({ kind: 'blockOnBlock', props: { together: true } }),
   }),
 
   defineQuestion('PHY_AP15', {
@@ -285,11 +285,11 @@ export const applicationsQuestions = [
     prompt: (p) =>
       `Block A weighs ${fmt(p.WA)} N and B weighs ${fmt(p.WB)} N. The coefficient of kinetic friction between all surfaces is ${fmt(p.mu)}. Find the magnitude of the horizontal force F necessary to drag block B to the left at constant speed if A is held at rest.`,
     compute: (p) => ({ value: dragBlockFromUnder(p.WA, p.WB, p.mu), unit: 'N', tolerance: { mode: 'relative', value: 0.01 } }),
-    solution: (p, answer) => [
+    solution: (_p, answer) => [
       { label: 'Formula', math: 'F = \\mu(W_B+2W_A)' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'blockOnBlock', props: { together: false } }),
+    diagram: (_p) => ({ kind: 'blockOnBlock', props: { together: false } }),
   }),
 
   defineQuestion('PHY_AP16', {
@@ -300,11 +300,11 @@ export const applicationsQuestions = [
     prompt: (p) =>
       `Block A weighs ${fmt(p.WA)} N and block B weighs ${fmt(p.WB)} N. The coefficient of kinetic friction between block B and the floor is ${fmt(p.mu)}. The cord connecting block A to the wall has been cut, so block A rests freely on top of B and moves together with it. Find the magnitude of the horizontal force F necessary to drag block B to the left at constant speed.`,
     compute: (p) => ({ value: dragBlockTogether(p.WA, p.WB, p.mu), unit: 'N', tolerance: { mode: 'relative', value: 0.01 } }),
-    solution: (p, answer) => [
+    solution: (_p, answer) => [
       { label: 'Formula', math: 'F = \\mu(W_A+W_B)' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'blockOnBlock', props: { together: true } }),
+    diagram: (_p) => ({ kind: 'blockOnBlock', props: { together: true } }),
   }),
 
   defineQuestion('PHY_AP17', {
