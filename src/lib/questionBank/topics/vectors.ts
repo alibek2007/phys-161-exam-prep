@@ -59,7 +59,7 @@ export const vectorsQuestions = [
       { label: 'Formula', math: 'B_x = B\\cos\\theta' },
       { label: 'Answer', math: `B_x = ${fmt(answer)}\\text{ m}` },
     ],
-    diagram: (p) => ({ kind: 'vectorPair', props: { magA: p.B, magB: 0, angleDeg: p.angleDeg, mode: 'components' } }),
+    diagram: (p) => ({ kind: 'vectorComponents', props: { mag: p.B, angleDeg: p.angleDeg } }),
   }),
 
   defineQuestion('PHY_V04', {

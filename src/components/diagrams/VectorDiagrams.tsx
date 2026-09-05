@@ -29,14 +29,37 @@ export function VectorPairDiagram({ magA, magB, angleDeg, mode }: { magA: number
       <Label x={cx} y={cy + 18}>
         θ = {angleDeg}°
       </Label>
-      {mode === 'components' && (
-        <>
-          <line x1={ax} y1={cy} x2={ax} y2={ay} stroke="#cbd5e1" strokeWidth={1.5} strokeDasharray="3 3" />
-          <Label x={(cx + ax) / 2} y={cy + 16}>
-            Bₓ
-          </Label>
-        </>
-      )}
+    </Svg>
+  )
+}
+
+/** A single vector at an angle from the +x-axis, with its x-component projected onto the axis. */
+export function VectorComponentsDiagram({ mag, angleDeg }: { mag: number; angleDeg: number }) {
+  const originX = 55
+  const originY = H - 45
+  const length = 150
+  const rad = (angleDeg * Math.PI) / 180
+  const tipX = originX + length * Math.cos(rad)
+  const tipY = originY - length * Math.sin(rad)
+
+  return (
+    <Svg>
+      <line x1={originX - 15} y1={originY} x2={W - 15} y2={originY} stroke="#e2e8f0" strokeWidth={1} />
+      <line x1={tipX} y1={tipY} x2={tipX} y2={originY} stroke="#cbd5e1" strokeWidth={1.5} strokeDasharray="4 3" />
+      <Vec x1={originX} y1={originY} x2={originX + Math.max(tipX - originX, 0)} y2={originY} color={ACCENT} label="Bₓ" />
+      <Vec x1={originX} y1={originY} x2={tipX} y2={tipY} label="B" />
+      <path
+        d={`M ${originX + 26} ${originY} A 26 26 0 0 0 ${originX + 26 * Math.cos(rad)} ${originY - 26 * Math.sin(rad)}`}
+        fill="none"
+        stroke={STROKE}
+        strokeWidth={1}
+      />
+      <Label x={originX + 40} y={originY - 12}>
+        θ = {angleDeg}°
+      </Label>
+      <Label x={originX} y={originY + 16} anchor="start">
+        B = {mag} m
+      </Label>
     </Svg>
   )
 }

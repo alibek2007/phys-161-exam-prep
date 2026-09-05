@@ -2,15 +2,17 @@ import { ACCENT, Label, MUTED, STROKE, Svg, Vec, W } from './shared'
 
 export function CircularHillDiagram({ radius }: { radius: number }) {
   const cx = W / 2
-  const cyCircle = 160
-  const r = 90
+  const baseY = 170
+  const ctrlY = 60
+  // Quadratic bezier through symmetric endpoints peaks at t=0.5: (P0 + 2*P1 + P2) / 4.
+  const peakY = (baseY + 2 * ctrlY + baseY) / 4
   return (
     <Svg>
-      <path d={`M 10 170 Q ${cx} 60 ${W - 10} 170`} fill="none" stroke={STROKE} strokeWidth={3} />
-      <circle cx={cx} cy={cyCircle - r} r={5} fill={ACCENT} />
-      <Vec x1={cx} y1={cyCircle - r} x2={cx + 40} y2={cyCircle - r} label="v" />
-      <Vec x1={cx} y1={cyCircle - r} x2={cx} y2={cyCircle - r + 30} color={MUTED} />
-      <Label x={cx + 10} y={cyCircle - r + 42} color={MUTED}>
+      <path d={`M 10 ${baseY} Q ${cx} ${ctrlY} ${W - 10} ${baseY}`} fill="none" stroke={STROKE} strokeWidth={3} />
+      <circle cx={cx} cy={peakY} r={5} fill={ACCENT} />
+      <Vec x1={cx} y1={peakY} x2={cx + 40} y2={peakY} label="v" />
+      <Vec x1={cx} y1={peakY} x2={cx} y2={peakY + 30} color={MUTED} />
+      <Label x={cx + 10} y={peakY + 42} color={MUTED}>
         aᵣ
       </Label>
       <Label x={cx} y={200}>
@@ -111,7 +113,7 @@ export function CylinderLoopDiagram({ radius, point }: { radius: number; point: 
       <Label x={cx} y={dotY + (point === 'top' ? -14 : 22)}>
         {point === 'top' ? 'Point B (top)' : 'Point A (bottom)'}
       </Label>
-      <Label x={cx} y={cy + r + 22}>
+      <Label x={cx + r + 12} y={cy} anchor="start" color={MUTED}>
         r = {radius} m
       </Label>
     </Svg>
@@ -122,11 +124,14 @@ export function HillValleyDiagram({ r, shape }: { r: number; shape: string }) {
   const cx = W / 2
   const baseY = shape === 'hill' ? 170 : 60
   const sign = shape === 'hill' ? -1 : 1
+  const ctrlY = baseY + sign * 100
+  // Quadratic bezier through symmetric endpoints peaks at t=0.5: (P0 + 2*P1 + P2) / 4.
+  const peakY = (baseY + 2 * ctrlY + baseY) / 4
   return (
     <Svg>
-      <path d={`M 20 ${baseY} Q ${cx} ${baseY + sign * 100} ${W - 20} ${baseY}`} fill="none" stroke={STROKE} strokeWidth={3} />
-      <circle cx={cx} cy={baseY + sign * 100} r={7} fill={ACCENT} />
-      <Label x={cx} y={baseY + sign * 100 + (shape === 'hill' ? -14 : 24)}>
+      <path d={`M 20 ${baseY} Q ${cx} ${ctrlY} ${W - 20} ${baseY}`} fill="none" stroke={STROKE} strokeWidth={3} />
+      <circle cx={cx} cy={peakY} r={7} fill={ACCENT} />
+      <Label x={cx} y={peakY + (shape === 'hill' ? -14 : 24)}>
         r = {r} m
       </Label>
     </Svg>

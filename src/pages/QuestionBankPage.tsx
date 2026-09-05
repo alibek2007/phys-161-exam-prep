@@ -7,6 +7,7 @@ import { mulberry32 } from '../lib/physics/random'
 import { Card } from '../components/ui/Card'
 import { Badge } from '../components/ui/Badge'
 import { SolutionSteps } from '../components/SolutionSteps'
+import { DiagramRenderer } from '../components/diagrams/DiagramRenderer'
 
 const TOPICS = ['all', ...Object.keys(TOPIC_LABELS)] as (Topic | 'all')[]
 
@@ -86,6 +87,14 @@ export function QuestionBankPage() {
                     {variant && (
                       <div className="bg-navy-50 rounded-xl p-4 flex flex-col gap-3">
                         <p className="text-sm text-navy-900">{variant.prompt}</p>
+                        {variant.diagram && (
+                          <div className="rounded-xl bg-white border border-navy-100 p-4 flex flex-col items-center gap-1">
+                            <DiagramRenderer diagram={variant.diagram} />
+                            <span className="font-mono text-[10px] text-navy-400">
+                              kind: {variant.diagram.kind} · props: {JSON.stringify(variant.diagram.props)}
+                            </span>
+                          </div>
+                        )}
                         <div className="grid sm:grid-cols-2 gap-2 text-xs font-mono text-navy-600 bg-white rounded-lg p-3 border border-navy-100">
                           <div>
                             <span className="font-bold">Seed:</span> {variant.seed}

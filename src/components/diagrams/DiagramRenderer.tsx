@@ -1,5 +1,5 @@
 import type { DiagramSpec } from '../../types/question'
-import { VectorPairDiagram } from './VectorDiagrams'
+import { VectorComponentsDiagram, VectorPairDiagram } from './VectorDiagrams'
 import {
   BankedCurveDiagram,
   CircularHillDiagram,
@@ -28,6 +28,8 @@ export function DiagramRenderer({ diagram }: { diagram: DiagramSpec }) {
   switch (diagram.kind) {
     case 'vectorPair':
       return <VectorPairDiagram magA={p.magA as unknown as number} magB={p.magB as unknown as number} angleDeg={p.angleDeg as unknown as number} mode={p.mode as unknown as string} />
+    case 'vectorComponents':
+      return <VectorComponentsDiagram mag={p.mag as unknown as number} angleDeg={p.angleDeg as unknown as number} />
     case 'circularHill':
       return <CircularHillDiagram radius={p.radius as unknown as number} />
     case 'verticalCircle':

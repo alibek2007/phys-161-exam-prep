@@ -9,6 +9,7 @@ import { PracticePage } from './pages/PracticePage'
 import { HistoryPage } from './pages/HistoryPage'
 import { StatisticsPage } from './pages/StatisticsPage'
 import { QuestionBankPage } from './pages/QuestionBankPage'
+import { DiagramGalleryPage } from './pages/DiagramGalleryPage'
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/history" element={<HistoryPage />} />
             <Route path="/statistics" element={<StatisticsPage />} />
             <Route path="/bank" element={<QuestionBankPage />} />
+            <Route path="/dev/diagrams" element={<DiagramGalleryPage />} />
             <Route path="/results" element={<ResultsPage />} />
             <Route path="/review" element={<ReviewPage />} />
           </Route>

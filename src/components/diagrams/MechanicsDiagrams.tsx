@@ -20,10 +20,10 @@ export function PulleyBlockHangingDiagram({ m1, m2, forceAngleDeg }: { m1: numbe
       </Label>
       {forceAngleDeg !== undefined && (
         <Vec
-          x1={blockX - 20}
-          y1={tableY - 14}
-          x2={blockX - 20 - 45 * Math.cos((forceAngleDeg * Math.PI) / 180)}
-          y2={tableY - 14 - 45 * Math.sin((forceAngleDeg * Math.PI) / 180)}
+          x1={blockX}
+          y1={tableY - 28}
+          x2={blockX + 45 * Math.cos((forceAngleDeg * Math.PI) / 180)}
+          y2={tableY - 28 - 45 * Math.sin((forceAngleDeg * Math.PI) / 180)}
           color={ACCENT}
           label="F"
         />
@@ -147,10 +147,29 @@ export function InclinePulleyDiagram({ alphaDeg, direction }: { alphaDeg: number
   const inclineLen = 200
   const topY = baseY - inclineLen * Math.sin(rad)
   const rightX = topX + inclineLen * Math.cos(rad)
+
+  // Block center: a point partway up the incline surface, lifted along the outward normal
+  // so it visually rests on top of the slope rather than being centered on the line.
+  const d = 95
+  const liftOut = 11
+  const onSlopeX = topX + d * Math.cos(rad)
+  const onSlopeY = baseY - d * Math.sin(rad)
+  const blockCx = onSlopeX - Math.sin(rad) * liftOut
+  const blockCy = onSlopeY - Math.cos(rad) * liftOut
+
   return (
     <Svg>
       <path d={`M ${topX} ${topY} L ${topX} ${baseY} L ${rightX} ${baseY} Z`} fill="#eef2f7" stroke={STROKE} strokeWidth={2} />
-      <rect x={topX + 60} y={baseY - 60 * Math.sin(rad) - 16} width={30} height={20} fill="#fff" stroke={STROKE} strokeWidth={2} transform={`rotate(${-alphaDeg} ${topX + 60 + 15} ${baseY - 60 * Math.sin(rad) - 6})`} />
+      <rect
+        x={blockCx - 16}
+        y={blockCy - 10}
+        width={32}
+        height={20}
+        fill="#fff"
+        stroke={STROKE}
+        strokeWidth={2}
+        transform={`rotate(${-alphaDeg} ${blockCx} ${blockCy})`}
+      />
       <circle cx={rightX + 6} cy={topY} r={10} fill="none" stroke={STROKE} strokeWidth={2} />
       <line x1={rightX + 6} y1={topY + 10} x2={rightX + 6} y2={topY + 50} stroke={STROKE} strokeWidth={1.5} />
       <rect x={rightX - 8} y={topY + 50} width={28} height={22} fill="#fff" stroke={STROKE} strokeWidth={2} />
@@ -158,10 +177,10 @@ export function InclinePulleyDiagram({ alphaDeg, direction }: { alphaDeg: number
         m₂
       </Label>
       <Vec
-        x1={topX + 75}
-        y1={baseY - 75 * Math.sin(rad) - 6}
-        x2={topX + 75 + 30 * Math.cos(rad) * direction}
-        y2={baseY - 75 * Math.sin(rad) - 6 - 30 * Math.sin(rad) * direction}
+        x1={blockCx + Math.cos(rad) * 22 * direction}
+        y1={blockCy - Math.sin(rad) * 22 * direction}
+        x2={blockCx + Math.cos(rad) * 22 * direction + Math.cos(rad) * 26 * direction}
+        y2={blockCy - Math.sin(rad) * 22 * direction - Math.sin(rad) * 26 * direction}
         color={ACCENT}
       />
       <Label x={topX + 40} y={baseY - 8} color={MUTED}>
@@ -209,7 +228,8 @@ export function WindowBrushDiagram({ angleDeg }: { angleDeg: number }) {
     <Svg>
       <rect x={20} y={20} width={wallX - 20} height={170} fill="#eef2f7" stroke={STROKE} strokeWidth={2} />
       <rect x={wallX} y={brushY - 15} width={30} height={30} fill="#fff" stroke={STROKE} strokeWidth={2} />
-      <Vec x1={wallX + 30} y1={brushY} x2={wallX + 30 + 70 * Math.cos(rad)} y2={brushY - 70 * Math.sin(rad)} color={ACCENT} label="F" />
+      {/* F presses into the window (toward the wall, leftward) while lifting the brush (upward) */}
+      <Vec x1={wallX + 30} y1={brushY} x2={wallX + 30 - 40 * Math.cos(rad)} y2={brushY - 40 * Math.sin(rad)} color={ACCENT} label="F" />
       <Vec x1={wallX + 15} y1={brushY - 15} x2={wallX + 15} y2={brushY - 45} color={MUTED} label="up" />
       <Label x={wallX + 60} y={brushY + 30} color={MUTED}>
         α = {angleDeg}°
