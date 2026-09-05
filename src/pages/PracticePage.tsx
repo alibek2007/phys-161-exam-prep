@@ -9,7 +9,7 @@ import { Button } from '../components/ui/Button'
 import { AnswerInput } from '../components/exam/AnswerInput'
 import { SolutionSteps } from '../components/SolutionSteps'
 import { DiagramRenderer } from '../components/diagrams/DiagramRenderer'
-import { isAnswerCorrect } from '../lib/scoringEngine'
+import { checkAnswer, type AnswerCheckResult } from '../lib/scoringEngine'
 
 const TOPICS = Object.keys(QUESTIONS_BY_TOPIC) as Topic[]
 
@@ -19,7 +19,7 @@ export function PracticePage() {
   const [questionId, setQuestionId] = useState<string | null>(null)
   const [variant, setVariant] = useState<QuestionVariant | null>(null)
   const [answer, setAnswer] = useState('')
-  const [checked, setChecked] = useState<boolean | null>(null)
+  const [checkResult, setCheckResult] = useState<AnswerCheckResult | null>(null)
   const [showSolution, setShowSolution] = useState(false)
 
   const pool = useMemo(() => QUESTIONS_BY_TOPIC[topic].filter((q) => !difficulty || q.difficulty === difficulty), [topic, difficulty])
@@ -33,13 +33,13 @@ export function PracticePage() {
     setQuestionId(chosen.id)
     setVariant(v)
     setAnswer('')
-    setChecked(null)
+    setCheckResult(null)
     setShowSolution(false)
   }
 
-  function checkAnswer() {
+  function handleCheckAnswer() {
     if (!variant) return
-    setChecked(isAnswerCorrect(variant.answer, answer))
+    setCheckResult(checkAnswer(variant.answer, answer))
   }
 
   return (
@@ -119,15 +119,21 @@ export function PracticePage() {
           </div>
 
           <div className="flex flex-wrap gap-3">
-            <Button onClick={checkAnswer}>Check Answer</Button>
+            <Button onClick={handleCheckAnswer}>Check Answer</Button>
             <Button variant="ghost" onClick={() => setShowSolution((s) => !s)}>
               {showSolution ? 'Hide Solution' : 'Reveal Solution'}
             </Button>
           </div>
 
-          {checked !== null && (
-            <p className={`font-semibold ${checked ? 'text-good-600' : 'text-bad-600'}`}>
-              {checked ? 'Correct!' : `Not quite — correct answer is ${variant.answer.value.toPrecision(6).replace(/\.?0+$/, '')} ${variant.answer.unit}`}
+          {checkResult !== null && (
+            <p className={`font-semibold ${checkResult === 'correct' ? 'text-good-600' : 'text-bad-600'}`}>
+              {checkResult === 'correct' && 'Correct!'}
+              {checkResult === 'missing_units' &&
+                `Your number is right, but don't forget units — the answer needs "${variant.answer.unit}".`}
+              {checkResult === 'wrong_units' &&
+                `Your number is right, but the units are off — expected "${variant.answer.unit}".`}
+              {(checkResult === 'wrong_value' || checkResult === 'unparseable') &&
+                `Not quite — correct answer is ${variant.answer.value.toPrecision(6).replace(/\.?0+$/, '')} ${variant.answer.unit}`}
             </p>
           )}
 
