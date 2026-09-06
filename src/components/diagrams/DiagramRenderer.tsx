@@ -22,10 +22,17 @@ import {
   WindowBrushDiagram,
 } from './MechanicsDiagrams'
 
+/** The original textbook figure for a question, used in place of a generated SVG. */
+function ExerciseImageDiagram({ src }: { src: string }) {
+  return <img src={src} alt="Exercise diagram" className="max-h-72 w-auto max-w-full object-contain" />
+}
+
 export function DiagramRenderer({ diagram }: { diagram: DiagramSpec }) {
   const p = diagram.props as Record<string, number & string & boolean>
 
   switch (diagram.kind) {
+    case 'exerciseImage':
+      return <ExerciseImageDiagram src={p.src as unknown as string} />
     case 'vectorPair':
       return <VectorPairDiagram magA={p.magA as unknown as number} magB={p.magB as unknown as number} angleDeg={p.angleDeg as unknown as number} mode={p.mode as unknown as string} />
     case 'vectorComponents':

@@ -32,6 +32,7 @@ export const newton2Questions = [
       { label: 'Formula', math: 'N = mg - F\\sin\\theta' },
       { label: 'Answer', math: `N = ${fmt(answer)}\\text{ N}` },
     ],
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p102.png' } }),
   }),
 
   defineQuestion('PHY_N2_03', {
@@ -124,7 +125,7 @@ export const newton2Questions = [
       { label: 'Formula', math: 'F_{3\\to2} = 2m_{link}(g+a)\\ \\ \\text{(supports links 1,2)}' },
       { label: 'Answer', math: `${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'chainLinks', props: { linkMass: p.linkMass, a: p.a, highlightBoundary: 2 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p108-111.png' } }),
   }),
 
   defineQuestion('PHY_N2_09', {
@@ -139,7 +140,7 @@ export const newton2Questions = [
       { label: 'Formula', math: 'F = 5\\,m_{link}(g+a)' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'chainLinks', props: { linkMass: p.linkMass, a: p.a, highlightBoundary: 5 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p108-111.png' } }),
   }),
 
   defineQuestion('PHY_N2_10', {
@@ -154,7 +155,7 @@ export const newton2Questions = [
       { label: 'Formula', math: 'F_{4\\to3} = 3m_{link}(g+a)\\ \\ \\text{(supports links 1,2,3)}' },
       { label: 'Answer', math: `${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'chainLinks', props: { linkMass: p.linkMass, a: p.a, highlightBoundary: 3 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p108-111.png' } }),
   }),
 
   defineQuestion('PHY_N2_11', {
@@ -169,7 +170,7 @@ export const newton2Questions = [
       { label: 'Formula', math: 'F_{5\\to4} = 4m_{link}(g+a)\\ \\ \\text{(supports links 1–4)}' },
       { label: 'Answer', math: `${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'chainLinks', props: { linkMass: p.linkMass, a: p.a, highlightBoundary: 4 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p108-111.png' } }),
   }),
 
   defineQuestion('PHY_N2_12', {

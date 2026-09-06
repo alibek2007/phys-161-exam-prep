@@ -19,7 +19,7 @@ export const frictionQuestions = [
       { label: 'Formula', math: '\\mu_s - \\mu_k = \\dfrac{a(m_1+m_2)}{m_1 g}' },
       { label: 'Answer', math: `${fmt(answer)}` },
     ],
-    diagram: (p) => ({ kind: 'pulleyBlockHanging', props: { m1: p.m1, m2: p.m2 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p94-95.png' } }),
   }),
 
   defineQuestion('PHY_FR02', {
@@ -34,7 +34,7 @@ export const frictionQuestions = [
       { label: 'Formula', math: 'a = \\dfrac{m_2 g - \\mu m_1 g}{m_1+m_2}' },
       { label: 'Answer', math: `a = ${fmt(answer)}\\text{ m/s}^2` },
     ],
-    diagram: (p) => ({ kind: 'pulleyBlockHanging', props: { m1: p.m1, m2: p.m2 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p94-95.png' } }),
   }),
 
   defineQuestion('PHY_FR03', {
@@ -56,7 +56,7 @@ export const frictionQuestions = [
       { label: 'Formula', math: 'N=m_1g-F\\sin\\theta,\\quad a=\\dfrac{F\\cos\\theta-\\mu N-m_2 g}{m_1+m_2}' },
       { label: 'Answer', math: `a = ${fmt(answer)}\\text{ m/s}^2` },
     ],
-    diagram: (p) => ({ kind: 'pulleyBlockHanging', props: { m1: p.m1, m2: p.m2, forceAngleDeg: p.angleDeg } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p96.png' } }),
   }),
 
   defineQuestion('PHY_FR04', {
@@ -105,7 +105,7 @@ export const frictionQuestions = [
       { label: 'Formula', math: 'F = \\dfrac{m_1 g (m_1+m_2)}{\\mu\\, m_2}' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'blockAgainstBlock', props: { m1: p.m1, m2: p.m2 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p99-100.png' } }),
   }),
 
   defineQuestion('PHY_FR07', {
@@ -120,6 +120,6 @@ export const frictionQuestions = [
       { label: 'Formula', math: 'a = \\dfrac{F}{m_1+m_2}' },
       { label: 'Answer', math: `a = ${fmt(answer)}\\text{ m/s}^2` },
     ],
-    diagram: (p) => ({ kind: 'blockAgainstBlock', props: { m1: p.m1, m2: p.m2 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p99-100.png' } }),
   }),
 ]

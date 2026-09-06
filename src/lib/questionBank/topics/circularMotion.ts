@@ -31,7 +31,7 @@ export const circularMotionQuestions = [
       { label: 'Formula', math: 'a_r = v^2/r,\\quad a = \\sqrt{a_r^2+a_t^2}' },
       { label: 'Answer', math: `a = ${fmt(answer)}\\text{ m/s}^2` },
     ],
-    diagram: (p) => ({ kind: 'circularHill', props: { radius: p.r } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p81.png' } }),
   }),
 
   defineQuestion('PHY_CM02', {
@@ -176,7 +176,7 @@ export const circularMotionQuestions = [
       { label: 'Formula', math: 'Mg = \\dfrac{mv^2}{r} \\Rightarrow v = \\sqrt{Mgr/m}' },
       { label: 'Answer', math: `v = ${fmt(answer)}\\text{ m/s}` },
     ],
-    diagram: (p) => ({ kind: 'holeTable', props: { m: p.m, M: p.M, r: p.r } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p90.png' } }),
   }),
 
   defineQuestion('PHY_CM11', {
@@ -206,7 +206,7 @@ export const circularMotionQuestions = [
       { label: 'Formula', math: 'v = \\sqrt{gL\\sin\\theta\\tan\\theta}' },
       { label: 'Answer', math: `v = ${fmt(answer)}\\text{ m/s}` },
     ],
-    diagram: (p) => ({ kind: 'conicalPendulum', props: { L: p.L, angleDeg: p.angleDeg } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p92.png' } }),
   }),
 
   defineQuestion('PHY_CM13', {
@@ -221,6 +221,6 @@ export const circularMotionQuestions = [
       { label: 'Formula', math: '\\tan\\theta = \\dfrac{v^2}{Rg}' },
       { label: 'Answer', math: `\\theta = ${fmt(answer)}\\text{ rad}` },
     ],
-    diagram: (p) => ({ kind: 'bankedCurve', props: { angleDeg: (Math.atan((p.v * p.v) / (p.r * G)) * 180) / Math.PI } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p93.png' } }),
   }),
 ]

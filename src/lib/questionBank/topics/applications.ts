@@ -81,7 +81,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'F = W/2\\ \\ \\text{(2 supporting rope segments)}' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'movablePulley', props: { W: p.W } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p123-124.png' } }),
   }),
 
   defineQuestion('PHY_AP04', {
@@ -96,7 +96,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'F = \\dfrac{W(g+a)}{2g}' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'movablePulley', props: { W: p.W } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p123-124.png' } }),
   }),
 
   defineQuestion('PHY_AP05', {
@@ -115,7 +115,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'T = \\dfrac{mg}{2\\sin\\theta}' },
       { label: 'Answer', math: `T = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'clothesline', props: { angleDeg: p.angleDeg } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p125-126.png' } }),
   }),
 
   defineQuestion('PHY_AP06', {
@@ -137,7 +137,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'T = \\dfrac{mg}{2\\sin(90°-\\theta_{vert})}' },
       { label: 'Answer', math: `T = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'clothesline', props: { angleDeg: 90 - p.angleFromVerticalDeg } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p125-126.png' } }),
   }),
 
   defineQuestion('PHY_AP07', {
@@ -156,7 +156,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'm_2 g = m_1 g\\sin\\alpha + \\mu m_1 g\\cos\\alpha' },
       { label: 'Answer', math: `m_2 = ${fmt(answer)}\\text{ kg}` },
     ],
-    diagram: (p) => ({ kind: 'inclinePulley', props: { alphaDeg: p.alphaDeg, direction: 1 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p127-130.png' } }),
   }),
 
   defineQuestion('PHY_AP08', {
@@ -176,7 +176,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'm_1 g\\sin\\alpha = m_2 g + \\mu m_1 g\\cos\\alpha' },
       { label: 'Answer', math: `m_2 = ${fmt(answer)}\\text{ kg}` },
     ],
-    diagram: (p) => ({ kind: 'inclinePulley', props: { alphaDeg: p.alphaDeg, direction: -1 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p127-130.png' } }),
   }),
 
   defineQuestion('PHY_AP09', {
@@ -195,7 +195,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'm_2(g-a) = m_1 a + m_1 g\\sin\\alpha + \\mu m_1 g\\cos\\alpha' },
       { label: 'Answer', math: `m_2 = ${fmt(answer)}\\text{ kg}` },
     ],
-    diagram: (p) => ({ kind: 'inclinePulley', props: { alphaDeg: p.alphaDeg, direction: 1 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p127-130.png' } }),
   }),
 
   defineQuestion('PHY_AP10', {
@@ -214,7 +214,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'T = m_1 g\\sin\\alpha + \\mu m_1 g\\cos\\alpha' },
       { label: 'Answer', math: `T = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'inclinePulley', props: { alphaDeg: p.alphaDeg, direction: 1 } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p127-130.png' } }),
   }),
 
   defineQuestion('PHY_AP11', {
@@ -229,7 +229,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'f = \\dfrac{w}{\\tan\\alpha}' },
       { label: 'Answer', math: `f = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'blockCordWeight', props: { angleDeg: p.angleDeg } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p131-133.png' } }),
   }),
 
   defineQuestion('PHY_AP12', {
@@ -244,7 +244,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'w_{max} = \\mu W_A \\tan\\alpha' },
       { label: 'Answer', math: `w_{max} = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'blockCordWeight', props: { angleDeg: p.angleDeg } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p131-133.png' } }),
   }),
 
   defineQuestion('PHY_AP13', {
@@ -259,7 +259,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: '\\mu_{min} = \\dfrac{w}{W_A\\tan\\alpha}' },
       { label: 'Answer', math: `\\mu_{min} = ${fmt(answer)}` },
     ],
-    diagram: (p) => ({ kind: 'blockCordWeight', props: { angleDeg: p.angleDeg } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p131-133.png' } }),
   }),
 
   defineQuestion('PHY_AP14', {
@@ -274,7 +274,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'F = \\mu(W_A+W_B)' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (_p) => ({ kind: 'blockOnBlock', props: { together: true } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p134-136.png' } }),
   }),
 
   defineQuestion('PHY_AP15', {
@@ -289,7 +289,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'F = \\mu(W_B+2W_A)' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (_p) => ({ kind: 'blockOnBlock', props: { together: false } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p135.png' } }),
   }),
 
   defineQuestion('PHY_AP16', {
@@ -304,7 +304,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'F = \\mu(W_A+W_B)' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (_p) => ({ kind: 'blockOnBlock', props: { together: true } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p134-136.png' } }),
   }),
 
   defineQuestion('PHY_AP17', {
@@ -319,7 +319,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'F = \\dfrac{W}{\\sin\\alpha - \\mu_k\\cos\\alpha}' },
       { label: 'Answer', math: `F = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'windowBrush', props: { angleDeg: p.angleDeg } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p137-138.png' } }),
   }),
 
   defineQuestion('PHY_AP18', {
@@ -337,7 +337,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'F = \\dfrac{W}{\\sin\\alpha-\\mu_k\\cos\\alpha},\\quad N=F\\cos\\alpha' },
       { label: 'Answer', math: `N = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'windowBrush', props: { angleDeg: p.angleDeg } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p137-138.png' } }),
   }),
 
   defineQuestion('PHY_AP19', {
@@ -420,7 +420,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'N = m\\left(\\dfrac{v^2}{r}+g\\right)' },
       { label: 'Answer', math: `N = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'cylinderLoop', props: { radius: p.r, point: 'bottom' } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p143.png' } }),
   }),
 
   defineQuestion('PHY_AP24', {
@@ -436,7 +436,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'N = m\\left(\\dfrac{v^2}{r}-g\\right)' },
       { label: 'Answer', math: `N = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'cylinderLoop', props: { radius: p.r, point: 'top' } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p144-145.png' } }),
   }),
 
   defineQuestion('PHY_AP25', {
@@ -451,7 +451,7 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'v_{min} = \\sqrt{gr}' },
       { label: 'Answer', math: `v_{min} = ${fmt(answer)}\\text{ m/s}` },
     ],
-    diagram: (p) => ({ kind: 'cylinderLoop', props: { radius: p.r, point: 'top' } }),
+    diagram: () => ({ kind: 'exerciseImage', props: { src: '/exercise-images/p144-145.png' } }),
   }),
 
   defineQuestion('PHY_AP26', {
