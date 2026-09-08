@@ -137,7 +137,6 @@ export const applicationsQuestions = [
       { label: 'Formula', math: 'T = \\dfrac{mg}{2\\sin(90°-\\theta_{vert})}' },
       { label: 'Answer', math: `T = ${fmt(answer)}\\text{ N}` },
     ],
-    diagram: (p) => ({ kind: 'clothesline', props: { angleDeg: 90 - p.angleFromVerticalDeg } }),
   }),
 
   defineQuestion('PHY_AP07', {
