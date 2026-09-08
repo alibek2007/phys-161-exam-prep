@@ -191,7 +191,6 @@ export const circularMotionQuestions = [
       { label: 'Formula', math: 'M = \\dfrac{mv^2}{gr}' },
       { label: 'Answer', math: `M = ${fmt(answer)}\\text{ kg}` },
     ],
-    diagram: (p) => ({ kind: 'holeTable', props: { m: p.m, M: (p.m * p.v * p.v) / (G * p.r), r: p.r } }),
   }),
 
   defineQuestion('PHY_CM12', {
