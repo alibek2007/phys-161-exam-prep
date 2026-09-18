@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { Star, Shuffle } from 'lucide-react'
-import type { Difficulty, QuestionVariant, Topic } from '../types/question'
-import { TOPIC_LABELS } from '../types/question'
+import type { Difficulty, ExamSet, QuestionVariant, Topic } from '../types/question'
+import { EXAM_SET_LABELS, TOPIC_EXAM_SET, TOPIC_LABELS } from '../types/question'
 import { QUESTIONS_BY_TOPIC } from '../lib/questionBank'
 import { mulberry32 } from '../lib/physics/random'
 import { Card } from '../components/ui/Card'
@@ -11,10 +12,19 @@ import { SolutionSteps } from '../components/SolutionSteps'
 import { DiagramRenderer } from '../components/diagrams/DiagramRenderer'
 import { checkAnswer, type AnswerCheckResult } from '../lib/scoringEngine'
 
-const TOPICS = Object.keys(QUESTIONS_BY_TOPIC) as Topic[]
+const ALL_TOPICS = Object.keys(QUESTIONS_BY_TOPIC) as Topic[]
+const EXAM_SETS: ExamSet[] = ['exam1', 'exam2']
+
+function topicsFor(examSet: ExamSet): Topic[] {
+  return ALL_TOPICS.filter((t) => TOPIC_EXAM_SET[t] === examSet)
+}
 
 export function PracticePage() {
-  const [topic, setTopic] = useState<Topic>(TOPICS[0])
+  const [searchParams] = useSearchParams()
+  const initialSet: ExamSet = searchParams.get('set') === 'exam2' ? 'exam2' : 'exam1'
+
+  const [examSet, setExamSet] = useState<ExamSet>(initialSet)
+  const [topic, setTopic] = useState<Topic>(topicsFor(initialSet)[0])
   const [difficulty, setDifficulty] = useState<Difficulty | null>(null)
   const [questionId, setQuestionId] = useState<string | null>(null)
   const [variant, setVariant] = useState<QuestionVariant | null>(null)
@@ -22,7 +32,15 @@ export function PracticePage() {
   const [checkResult, setCheckResult] = useState<AnswerCheckResult | null>(null)
   const [showSolution, setShowSolution] = useState(false)
 
+  const topics = useMemo(() => topicsFor(examSet), [examSet])
   const pool = useMemo(() => QUESTIONS_BY_TOPIC[topic].filter((q) => !difficulty || q.difficulty === difficulty), [topic, difficulty])
+
+  function switchExamSet(next: ExamSet) {
+    setExamSet(next)
+    setTopic(topicsFor(next)[0])
+    setQuestionId(null)
+    setVariant(null)
+  }
 
   function generate(sameQuestion = false) {
     const chosen = sameQuestion && questionId ? pool.find((q) => q.id === questionId) : pool[Math.floor(Math.random() * pool.length)]
@@ -49,6 +67,20 @@ export function PracticePage() {
         <p className="text-navy-600 text-sm mt-1">No timer. Hints and full solutions available. Regenerate as many variants as you like.</p>
       </div>
 
+      <div className="flex items-center gap-1 bg-navy-100 rounded-xl p-1 w-fit">
+        {EXAM_SETS.map((set) => (
+          <button
+            key={set}
+            onClick={() => switchExamSet(set)}
+            className={`rounded-lg px-4 py-2 text-sm font-semibold transition-colors ${
+              examSet === set ? 'bg-white text-navy-950 shadow-sm' : 'text-navy-600 hover:text-navy-900'
+            }`}
+          >
+            {EXAM_SET_LABELS[set]}
+          </button>
+        ))}
+      </div>
+
       <Card className="p-6 flex flex-col gap-4">
         <div className="grid sm:grid-cols-2 gap-4">
           <label className="flex flex-col gap-1.5">
@@ -62,7 +94,7 @@ export function PracticePage() {
               }}
               className="rounded-xl border-2 border-navy-100 px-3 py-2.5 text-navy-950 font-medium outline-none focus:border-navy-600"
             >
-              {TOPICS.map((t) => (
+              {topics.map((t) => (
                 <option key={t} value={t}>
                   {TOPIC_LABELS[t]}
                 </option>

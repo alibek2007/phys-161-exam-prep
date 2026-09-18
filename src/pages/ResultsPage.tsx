@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { CheckCircle2, XCircle } from 'lucide-react'
 import type { ExamResult } from '../types/exam'
-import { TOPIC_LABELS } from '../types/question'
+import { EXAM_SET_LABELS, TOPIC_LABELS } from '../types/question'
 import { Card } from '../components/ui/Card'
 import { Button } from '../components/ui/Button'
 import { storage } from '../lib/storage'
@@ -53,7 +53,9 @@ export function ResultsPage() {
   return (
     <div className="flex flex-col gap-8 max-w-3xl mx-auto">
       <Card className="p-8 text-center">
-        <span className="text-xs font-bold uppercase tracking-widest text-accent-600">Exam Complete</span>
+        <span className="text-xs font-bold uppercase tracking-widest text-accent-600">
+          {EXAM_SET_LABELS[result.examSet ?? 'exam1']} Complete
+        </span>
         <div className="mt-3 text-6xl font-extrabold text-navy-950">{animatedPct}%</div>
         <p className="text-navy-700 mt-1">
           Score {result.score} / {result.total}

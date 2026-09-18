@@ -6,6 +6,13 @@ import * as projectile from '../src/lib/physics/projectile'
 import * as units from '../src/lib/physics/units'
 import * as uncertainty from '../src/lib/physics/uncertainty'
 import { toRad } from '../src/lib/physics/vectors'
+import * as work from '../src/lib/physics/work'
+import * as energy from '../src/lib/physics/energy'
+import * as momentum from '../src/lib/physics/momentum'
+import * as rocket from '../src/lib/physics/rocket'
+import * as rotation from '../src/lib/physics/rotation'
+import * as torque from '../src/lib/physics/torque'
+import * as angularMomentum from '../src/lib/physics/angularMomentum'
 
 function check(label: string, expected: number, actual: number, tolPct = 1) {
   const pct = Math.abs((actual - expected) / expected) * 100
@@ -71,6 +78,28 @@ allOk = check('P64 height below', 133.243, projectile.projectileHeightBelowLaunc
 
 allOk = check('P1 sphere radius', 0.04167, units.sphereRadiusFromMassDensity(6000, 19.8) / 100, 0.5) && allOk
 allOk = check('P13 disk volume unc', 0.2066875, uncertainty.uncertaintyDiskVolume(8.6, 0.03, 0.08, 0.003), 0.5) && allOk
+
+// --- Exam 2 ---
+allOk = check('P1(w) spring speed', 1.2, work.speedFromSpring(120, 0.3, 7.5), 0.5) && allOk
+allOk = check('P36(w) atwood mass', 2.17925, energy.atwoodHeavierMass(2.1, 1.5, 3.79, 9.8), 0.5) && allOk
+allOk = check('P54(w) min loop height factor', 2.5, energy.minLoopHeight(1) / 1, 0.1) && allOk
+
+allOk = check('P72 impulse oblique bounce', 2 * 0.4 * 12 * Math.cos(toRad(30)), momentum.impulseObliqueBounce(0.4, 12, toRad(30)), 0.1) && allOk
+allOk = check('P78 inelastic final speed', (5 * 8) / (5 + 3), momentum.inelasticFinalSpeed(5, 8, 3), 0.1) && allOk
+allOk = check('P92(rk) rocket speed', 4 * Math.log(1 / 0.07), rocket.rocketFinalSpeed(4, 0.07), 0.1) && allOk
+
+allOk = check('rod end I', (1 / 3) * 6 * 2 * 2, rotation.I_rodEnd(6, 2), 0.1) && allOk
+allOk = check('sphere shell I', (2 / 3) * 4 * 0.5 * 0.5, rotation.I_thinSphericalShell(4, 0.5), 0.1) && allOk
+allOk = check('P111 rolling I', 3.542, rotation.rollingMomentOfInertia(2.1, 0.39, 1.9, toRad(37), 3.7, 9.8), 0.5) && allOk
+
+allOk = check('P121 grindstone F', 69.99, torque.grindstoneDriveForce(0.5 * 58 * 0.25 * 0.25, (140 * 2 * Math.PI) / 60, 7, 0.47, 0.59, 160, 0.25, 5.5), 0.1) && allOk
+allOk = check('P122 grindstone stop t', 2.90552, torque.stopTimeFromFriction(0.5 * 54 * 0.3 * 0.3, 35.5, 0.61 * 130 * 0.3 + 5.9), 0.1) && allOk
+
+allOk = check('P133 embed omega', 1.981, angularMomentum.embedAngularSpeed(0.17, 79.7, 0.03, 0.15, 0.5 * 17.9 * 0.15 * 0.15), 0.5) && allOk
+allOk = check('P134 platform omega', 10.662, angularMomentum.platformFinalOmega(0.5 * 76.3 * 2.9 * 2.9, 64.1, 2.9, 5.2, 1.24), 0.1) && allOk
+allOk = check('P135 platform KE factor', 2.65316, angularMomentum.platformKEFactor(0.5 * 79 * 3.2 * 3.2, 65.3, 3.2), 0.1) && allOk
+allOk = check('P147 string break radius', 0.481, angularMomentum.stringBreakRadius(0.45, 3.75, 0.75, 32), 0.5) && allOk
+allOk = check('P148 string break speed', 5.84748, angularMomentum.stringBreakSpeed(34.5, 4.25, 0.75, 0.55), 0.5) && allOk
 
 console.log(allOk ? '\nALL SPOT CHECKS PASSED' : '\nSOME SPOT CHECKS FAILED')
 if (!allOk) process.exit(1)

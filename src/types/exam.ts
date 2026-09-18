@@ -1,4 +1,4 @@
-import type { Difficulty, QuestionVariant, Topic } from './question'
+import type { Difficulty, ExamSet, QuestionVariant, Topic } from './question'
 
 export interface ExamConfig {
   questionCount: number
@@ -18,6 +18,7 @@ export type ExamStatus = 'active' | 'submitted' | 'time_expired'
 
 export interface ExamSession {
   examId: string
+  examSet: ExamSet
   seed: number
   startedAt: number
   deadline: number
@@ -36,6 +37,7 @@ export interface TopicStat {
 
 export interface ExamResult {
   examId: string
+  examSet: ExamSet
   seed: number
   completedAt: number
   durationSec: number

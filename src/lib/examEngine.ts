@@ -1,4 +1,5 @@
-import type { Topic } from '../types/question'
+import type { ExamSet, Topic } from '../types/question'
+import { TOPIC_EXAM_SET } from '../types/question'
 import type { ExamConfig, ExamSession } from '../types/exam'
 import { DEFAULT_EXAM_CONFIG } from '../types/exam'
 import { QUESTIONS_BY_TOPIC } from './questionBank'
@@ -22,11 +23,11 @@ function randomExamSeed(): number {
  * topics are shuffled and one question is drawn from each, so no topic repeats and no two
  * questions can ever be exact duplicates.
  */
-export function generateExam(config: ExamConfig = DEFAULT_EXAM_CONFIG, seed?: number): ExamSession {
+export function generateExam(examSet: ExamSet, config: ExamConfig = DEFAULT_EXAM_CONFIG, seed?: number): ExamSession {
   const examSeed = seed ?? randomExamSeed()
   const rng = mulberry32(examSeed)
 
-  const allTopics = Object.keys(QUESTIONS_BY_TOPIC) as Topic[]
+  const allTopics = (Object.keys(QUESTIONS_BY_TOPIC) as Topic[]).filter((t) => TOPIC_EXAM_SET[t] === examSet)
   const topics = shuffle(allTopics, rng).slice(0, config.questionCount)
 
   const questions = topics.map((topic, i) => {
@@ -41,6 +42,7 @@ export function generateExam(config: ExamConfig = DEFAULT_EXAM_CONFIG, seed?: nu
   const startedAt = Date.now()
   return {
     examId: crypto.randomUUID(),
+    examSet,
     seed: examSeed,
     startedAt,
     deadline: startedAt + config.durationMinutes * 60_000,

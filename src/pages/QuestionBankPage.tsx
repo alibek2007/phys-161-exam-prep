@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { ChevronDown, ChevronRight } from 'lucide-react'
 import { QUESTION_BANK } from '../lib/questionBank'
-import { TOPIC_LABELS, type Topic } from '../types/question'
+import { EXAM_SET_LABELS, TOPIC_EXAM_SET, TOPIC_LABELS, type ExamSet, type Topic } from '../types/question'
 import type { QuestionVariant } from '../types/question'
 import { mulberry32 } from '../lib/physics/random'
 import { Card } from '../components/ui/Card'
@@ -9,18 +9,29 @@ import { Badge } from '../components/ui/Badge'
 import { SolutionSteps } from '../components/SolutionSteps'
 import { DiagramRenderer } from '../components/diagrams/DiagramRenderer'
 
-const TOPICS = ['all', ...Object.keys(TOPIC_LABELS)] as (Topic | 'all')[]
+const EXAM_SETS: ExamSet[] = ['exam1', 'exam2']
+const ALL_TOPICS = Object.keys(TOPIC_LABELS) as Topic[]
 
 export function QuestionBankPage() {
+  const [examSet, setExamSet] = useState<ExamSet>('exam1')
   const [topicFilter, setTopicFilter] = useState<Topic | 'all'>('all')
   const [expanded, setExpanded] = useState<string | null>(null)
   const [expandedVariant, setExpandedVariant] = useState<QuestionVariant | null>(null)
   const [expandedError, setExpandedError] = useState<string | null>(null)
 
+  const setTopics = useMemo(() => ALL_TOPICS.filter((t) => TOPIC_EXAM_SET[t] === examSet), [examSet])
+  const bankForSet = useMemo(() => QUESTION_BANK.filter((q) => TOPIC_EXAM_SET[q.topic] === examSet), [examSet])
+
   const filtered = useMemo(
-    () => QUESTION_BANK.filter((q) => topicFilter === 'all' || q.topic === topicFilter),
-    [topicFilter],
+    () => bankForSet.filter((q) => topicFilter === 'all' || q.topic === topicFilter),
+    [bankForSet, topicFilter],
   )
+
+  function switchExamSet(next: ExamSet) {
+    setExamSet(next)
+    setTopicFilter('all')
+    setExpanded(null)
+  }
 
   function toggle(id: string) {
     if (expanded === id) {
@@ -47,12 +58,34 @@ export function QuestionBankPage() {
       <div>
         <h1 className="text-2xl font-bold text-navy-950">Question Bank</h1>
         <p className="text-navy-600 text-sm mt-1">
-          {QUESTION_BANK.length} question templates. Expand a row to see a freshly generated variant (developer/debug view).
+          {QUESTION_BANK.length} question templates across both exam sets. Expand a row to see a freshly generated variant (developer/debug view).
         </p>
       </div>
 
+      <div className="flex items-center gap-1 bg-navy-100 rounded-xl p-1 w-fit">
+        {EXAM_SETS.map((set) => (
+          <button
+            key={set}
+            onClick={() => switchExamSet(set)}
+            className={`rounded-lg px-4 py-2 text-sm font-semibold transition-colors ${
+              examSet === set ? 'bg-white text-navy-950 shadow-sm' : 'text-navy-600 hover:text-navy-900'
+            }`}
+          >
+            {EXAM_SET_LABELS[set]}
+          </button>
+        ))}
+      </div>
+
       <div className="flex flex-wrap gap-2">
-        {TOPICS.map((t) => (
+        <button
+          onClick={() => setTopicFilter('all')}
+          className={`rounded-full px-3 py-1.5 text-sm font-semibold transition-colors ${
+            topicFilter === 'all' ? 'bg-navy-900 text-white' : 'bg-white border border-navy-100 text-navy-700 hover:bg-navy-100'
+          }`}
+        >
+          All
+        </button>
+        {setTopics.map((t) => (
           <button
             key={t}
             onClick={() => setTopicFilter(t)}
@@ -60,7 +93,7 @@ export function QuestionBankPage() {
               topicFilter === t ? 'bg-navy-900 text-white' : 'bg-white border border-navy-100 text-navy-700 hover:bg-navy-100'
             }`}
           >
-            {t === 'all' ? 'All' : TOPIC_LABELS[t]}
+            {TOPIC_LABELS[t]}
           </button>
         ))}
       </div>

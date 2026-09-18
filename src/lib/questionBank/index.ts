@@ -10,6 +10,18 @@ import { circularMotionQuestions } from './topics/circularMotion'
 import { frictionQuestions } from './topics/friction'
 import { newton2Questions } from './topics/newton2'
 import { applicationsQuestions } from './topics/applications'
+import { workQuestions } from './topics2/work'
+import { kineticEnergyQuestions } from './topics2/kineticEnergy'
+import { powerQuestions } from './topics2/power'
+import { potentialEnergyQuestions } from './topics2/potentialEnergy'
+import { energyConservationQuestions } from './topics2/energyConservation'
+import { impulseCollisionsQuestions } from './topics2/impulseCollisions'
+import { momentumQuestions } from './topics2/momentum'
+import { rocketPropulsionQuestions } from './topics2/rocketPropulsion'
+import { momentOfInertiaQuestions } from './topics2/momentOfInertia'
+import { rotationQuestions } from './topics2/rotation'
+import { torqueQuestions } from './topics2/torque'
+import { angularMomentumQuestions } from './topics2/angularMomentum'
 
 export const QUESTION_BANK: PhysicsQuestion[] = [
   ...unitsQuestions,
@@ -23,6 +35,18 @@ export const QUESTION_BANK: PhysicsQuestion[] = [
   ...frictionQuestions,
   ...newton2Questions,
   ...applicationsQuestions,
+  ...workQuestions,
+  ...kineticEnergyQuestions,
+  ...powerQuestions,
+  ...potentialEnergyQuestions,
+  ...energyConservationQuestions,
+  ...impulseCollisionsQuestions,
+  ...momentumQuestions,
+  ...rocketPropulsionQuestions,
+  ...momentOfInertiaQuestions,
+  ...rotationQuestions,
+  ...torqueQuestions,
+  ...angularMomentumQuestions,
 ]
 
 export const QUESTION_BY_ID: Map<string, PhysicsQuestion> = new Map(QUESTION_BANK.map((q) => [q.id, q]))

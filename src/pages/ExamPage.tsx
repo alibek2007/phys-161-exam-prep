@@ -12,6 +12,7 @@ import { Button } from '../components/ui/Button'
 import { ProgressBar } from '../components/ui/ProgressBar'
 import { scoreExam } from '../lib/scoringEngine'
 import { storage } from '../lib/storage'
+import { EXAM_SET_LABELS } from '../types/question'
 
 export function ExamPage() {
   const navigate = useNavigate()
@@ -60,7 +61,7 @@ export function ExamPage() {
     <div className="min-h-screen bg-navy-50 flex flex-col">
       <header className="bg-white border-b border-navy-100 sticky top-0 z-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
-          <span className="font-bold text-navy-950">Physics Exam</span>
+          <span className="font-bold text-navy-950">Physics Exam · {EXAM_SET_LABELS[session.examSet ?? 'exam1']}</span>
           <span className="text-sm font-semibold text-navy-600">
             Question {index + 1} / {total}
           </span>

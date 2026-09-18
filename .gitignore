@@ -27,5 +27,7 @@ dist-ssr
 
 .claude/scheduled_tasks.lock
 
-# Raw uploaded source images — the clean, actually-used copies live in public/exercise-images/
+# Raw uploaded source images — the clean, actually-used copies live in public/exercise-images*/
 exercise_img/
+exercise_img_1/
+exercise_img_2/

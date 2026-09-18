@@ -4,6 +4,8 @@ import { Trash2 } from 'lucide-react'
 import { storage } from '../lib/storage'
 import { Card } from '../components/ui/Card'
 import { Button } from '../components/ui/Button'
+import { Badge } from '../components/ui/Badge'
+import { EXAM_SET_LABELS } from '../types/question'
 
 export function HistoryPage() {
   const navigate = useNavigate()
@@ -46,10 +48,13 @@ export function HistoryPage() {
             return (
               <li key={r.examId} className="flex items-center justify-between gap-4 px-4 py-3">
                 <div>
-                  <div className="font-semibold text-navy-950">
-                    {r.score} / {r.total} correct ({pct}%)
+                  <div className="flex items-center gap-2">
+                    <Badge tone="navy">{EXAM_SET_LABELS[r.examSet ?? 'exam1']}</Badge>
+                    <span className="font-semibold text-navy-950">
+                      {r.score} / {r.total} correct ({pct}%)
+                    </span>
                   </div>
-                  <div className="text-xs text-navy-600">
+                  <div className="text-xs text-navy-600 mt-1">
                     {date.toLocaleDateString()} {date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} · {min}:{sec.toString().padStart(2, '0')}
                     {r.timeExpired && ' · time expired'}
                   </div>

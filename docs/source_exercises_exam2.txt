@@ -1,0 +1,1754 @@
+--- PAGE 1 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+Exam 2
+Work
+P1. Determine the work necessary
+to push (not pull) a mass of 66.5
+kg horizontally at a distance of 2.6
+m by a force of 73.8 N on a
+horizontal frictionless surface.
+(191.88 J)
+P2. Determine the work necessary
+to push a mass of 25 kg a distance
+of 3.4 m along a horizontal
+frictionless surface by a force of 73
+N directed at an angle of 20°
+below the horizontal. (233.232 J)
+P3. Find the magnitude of work to
+be done lifting the mass of 1.5 kg
+from height 0.3 m up to 1.4 m. The
+gravitational acceleration is g = 9.8
+2
+m/s . (16.17 J)
+P4. A small particle of mass 400 g
+is pulled to the top of a frictionless
+half-cylinder of radius 1 m by a
+cord that passes over the top of
+the cylinder as illustrated in Figure
+below. Find the work done by F in
+moving the particle at constant
+speed from bottom to the top of
+the half-cylinder. The gravitational
+acceleration is g = 9.8 m/s². (3.92
+J)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…w6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 1 из 40
+--- PAGE 2 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P5. A small particle of mass 0.6 kg
+is pulled at constant speed to the
+top of a frictionless half-cylinder of
+radius 1.55 m by a cord that
+passes over the top of the cylinder.
+Find the work done by gravity on
+the particle as it moves from the
+bottom to the top. The gravitational
+acceleration is g = 9.8 m/s².
+(-9.114 J)
+P6. When a 4.5 kg object is hung
+vertically on a certain light spring
+described by Hooke's law, the
+spring stretches 1.5 cm. If the 4.5
+kg object is removed, how much
+work must an external agent do to
+stretch the same spring 4.5 cm
+from its unstretched position? The
+gravitational acceleration is g = 9.8
+2
+m/s . (2.97675 J)
+P7. A woman steps on a bathroom
+scale containing a stiff spring. In
+equilibrium the spring is
+compressed 1 cm under her
+weight. The total work done on the
+spring during the compression is
+3.1 J. Find the woman's mass.
+The gravitational acceleration is g
+2
+= 9.8 m/s . (63.265306122449 kg)
+P8. A woman of mass 80.5 kg
+steps on a bathroom scale
+containing a stiff spring. In
+equilibrium the spring is
+compressed 1.35 cm under her
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…w6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 2 из 40
+--- PAGE 3 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+weight. Find the total work done
+on the spring during the
+compression. The gravitational
+acceleration is g = 9.8 m/s².
+(5.32508 J)
+P9. A farmer pulls a sled with
+firewood by a tractor a distance of
+20 m along level ground. The
+tractor exerts a constant 4700 N
+force at an angle of 34.2˚ above
+the horizontal as shown in Figure
+below. There is a 3400 N friction
+force opposing the sled's motion.
+Find the total work done by all the
+forces on the sled.
+(9745.5739818088 J)
+P10. A farmer pulls a sled with
+firewood by a tractor a distance of
+19.5 m along level ground. The
+tractor exerts a constant 4350 N
+force at an angle of 29.5° above
+the horizontal. There is a 3750 N
+friction force opposing the sled's
+motion. Find the work done by the
+friction force on the sled. (-73125
+J)
+P11. Two forces of equal
+magnitude 7 N move an object on
+a horizontal surface at a distance
+d = 8.5 m. Determine the work
+required to push the object at this
+distance. (84.1457 J)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…w6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 3 из 40
+--- PAGE 4 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P12. A luggage handler pulls a 24-
+kg suitcase up a ramp inclined at
+29° above the horizontal by a force
+F of magnitude 165 N that acts
+parallel to the ramp. The
+coefficient of kinetic friction
+between the ramp and the
+suitcase is µ = 0.36. If the
+k
+suitcase travels 3.1 m along the
+ramp, calculate the work done on
+the suitcase by the force F. (511.5
+J)
+P13. A luggage handler pulls a 18-
+kg suitcase up a ramp inclined at
+28° above the horizontal by a force
+F of magnitude 195 N that acts
+parallel to the ramp. The
+coefficient of kinetic friction
+between the ramp and the
+suitcase is 0.35. If the suitcase
+travels 3.5 m along the ramp,
+calculate the work done on the
+suitcase by the friction force. The
+gravitational acceleration is g = 9.8
+m/s². (-190.796 J)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 4 из 40
+--- PAGE 5 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P14. A luggage handler pulls a 18-
+kg suitcase up a ramp inclined at
+31° above the horizontal by a force
+F of magnitude 170 N that acts
+parallel to the ramp. The
+coefficient of kinetic friction
+between the ramp and the
+suitcase is µ = 0.32. If the
+k
+suitcase travels 4.1 m along the
+ramp, calculate the magnitude of
+the work done on the suitcase by
+the gravitational force. The
+gravitational acceleration is g = 9.8
+2
+m/s . (372.49613729795 J)
+Kinetic energy
+P15. In a gun, a 11 g bullet is
+accelerated from rest to a speed of
+751 m/s. Assuming the bullet
+passes 37 cm distance inside the
+gun, find the magnitude of the
+average net force that acted on it.
+(8383.7986486486 N)
+P16. In a gun, a 17.5 g bullet is
+accelerated uniformly from rest to
+a speed of 756 m/s. Assuming the
+bullet travels 61.5 cm inside the
+gun, find the time the bullet
+spends inside the gun.
+(0.00162698 s)
+P17. In a gun, a 11 g bullet is
+accelerated from rest to a speed of
+754 m/s. Find the work that is
+done on the bullet. (3126.84 J)
+P18. A meteor crashed into the
+earth. Measurements estimate that
+this meteor had a mass of
+8
+1.6×10 kg and hit the ground at
+12 km/s. How much kinetic energy
+did this meteor deliver to the
+ground? (1.152E+16 J)
+P19. The mass of a proton is 1836
+times the mass of an electron. An
+electron has kinetic energy
+−16
+3.55×10 J. If a proton has the
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…w6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 5 из 40
+--- PAGE 6 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+same speed as the electron, what
+is its kinetic energy? (6.5178E-13
+J)
+P20. The mass of a proton is 1836
+times the mass of an electron. An
+electron has kinetic energy
+4.3×10⁻¹⁶ J. If a proton has the
+same momentum as the electron,
+what is the proton's kinetic
+energy? (2.34205e-19 J)
+P21. The mass of a proton is 1836
+times the mass of an electron. A
+proton is traveling at speed
+6
+1×10 m/s. At what speed would
+an electron have the same kinetic
+energy as the proton?
+(42848570.57 m/s)
+P22. The mass of a proton is 1836
+times the mass of an electron. A
+proton is traveling at a speed of
+5.5×10⁴ m/s. At what speed would
+an electron have the same
+momentum as the proton?
+(1.0098e+08 m/s)
+P23. A 4 kg object has a velocity
+of (2iˆ+ 2jˆ) m/s. What is the net
+work done on the object if its
+velocity changes to (8iˆ + 5jˆ) m/s?
+(162 J)
+P24. A 2 kg object has a velocity
+of (2î + 1ĵ) m/s. Its velocity then
+changes to (7î + 8ĵ) m/s. What is
+the magnitude of the change in the
+object's momentum? (17.2047 kg
+m/s)
+P25. A physics professor is
+pushed up a ramp inclined upward
+at 26° above the horizontal as he
+sits in his desk chair that slides on
+frictionless rollers. The combined
+mass of the professor and chair is
+87 kg. He is pushed 2.6 m along
+the incline by a group of students
+who together exert a constant
+horizontal force of 500 N. The
+professor's speed at the bottom of
+the ramp is 2.4 m/s. Find his
+speed at the top of the ramp. The
+gravitational acceleration is g = 9.8
+2
+m/s . (3.206 m/s)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 6 из 40
+--- PAGE 7 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+Power
+P26. Electric engine pulls an 1800-
+kg block of concrete with a
+constant speed of 2.86 m/s up an
+incline with an angle of inclination
+θ=21°. The coefficient of kinetic
+friction between the block and the
+incline is 0.69. How much power
+must be supplied by the engine?
+The gravitational acceleration is g
+2
+= 9.8 m/s . (50578.47 W)
+P27. Calculate how much
+electrical power could be produced
+by a waterfall which is 62 m high, if
+all the potential energy of the
+water were converted into electric
+energy. The average rate of water
+5
+fall is 5.4×10 kg/s. The
+gravitational acceleration is g = 9.8
+2
+m/s . (328104000 W)
+P28. A waterfall 81 m high
+produces 43 MW of electrical
+power, assuming all the potential
+energy of the water is converted
+into electric energy. What is the
+average rate of water fall (mass
+per unit time)? The gravitational
+acceleration is g = 9.8 m/s².
+(54169.8 kg/s)
+P29. Each day the human heart
+takes in and discharges about
+7450 liters of blood. Assume that
+the work done by the heart is
+equal to the work required to lift
+this amount of blood a height
+equal to 1.77 m. The density of
+3 3
+blood is 1.05 × 10 kg/m . What is
+the heart's power output in watts?
+The gravitational acceleration is g
+2 3
+= 9.8 m/s . 1 liter = 0.001 m .
+(1.571 W)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…w6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 7 из 40
+--- PAGE 8 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+Potential energy
+P30. A force parallel to the x-axis
+acts on a particle moving along the
+x-axis. This force produces
+potential energy given by U(x) = α
+4 4
+* x , where α = 2.7 J/m . What is
+the force magnitude when the
+particle is at x = -0.2 m? (0.0864
+N)
+P31. A force parallel to the x-axis
+acts on a particle moving along the
+x-axis. This force produces
+potential energy given by U(x) = α
+x⁴, where α = 2.6 J/m⁴. How much
+work does this force do on the
+particle as it moves from x = 1.3 m
+to x = 0.2 m? (7.4217 J)
+P32. A single conservative force
+acts on a 5.00-kg particle. The
+equation F = (2x + 6) N describes
+the force, where x is in meters. As
+the particle moves along the x axis
+from x = 1 m to x = 8 m, calculate
+the change in the potential energy
+of the system. (-105 J)
+P33. A single conservative force
+acts on a 5 kg particle. The
+equation F = (2x + 4) N describes
+the force, where x is in meters. As
+the particle moves along the x axis
+from x = 2.5 m to x = 9.5 m,
+calculate the work done by this
+force on the particle. (112 J)
+P34. A force F, measured in
+Newtons, varies along the x-axis,
+with the distance measured in
+meters, according to the following
+2
+law: F(x)=1.3x +4x.
+Find the potential energy U(x)
+associated with this force at x=8
+m. Assume that U(0)=0. (-349.867
+J)
+P35. A force F, measured in
+newtons, varies along the x-axis,
+with the distance measured in
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 8 из 40
+--- PAGE 9 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+meters, according to the following
+law: F(x) = 1.5x² + 3x. Find the
+magnitude of this force at x = 7 m.
+(94.5 N)
+Energy conservation
+P36. Two blocks with different
+mass are attached to either end of
+a light rope that passes over a
+light, frictionless pulley that is
+suspended from the ceiling. The
+masses are released from rest,
+and the more massive one starts
+to descend. After this block has
+descended 1.4 m, its speed is 3.1
+m/s. If the total mass of the two
+blocks is 13 kg, what is the mass
+of the more massive block? The
+gravitational acceleration is g = 9.8
+2
+m/s . (8.776 kg)
+P37. Two blocks with different
+mass are attached to either end of
+a light rope that passes over a
+light, frictionless pulley that is
+suspended from the ceiling. The
+masses are released from rest,
+and the more massive one starts
+to descend. After this block has
+descended 1.6 m, its speed is 3
+m/s. If the total mass of the two
+blocks is 13 kg, what is the mass
+of the less massive block? The
+gravitational acceleration is g = 9.8
+m/s2. (4.635 kg)
+P38. At a construction site, a 62-
+kg bucket of concrete hangs from
+a light strong cable that passes
+over a light friction-free pulley and
+is connected to a 84-kg box on a
+horizontal roof. The cable pulls
+horizontally on the box, and a 48-
+kg bag of gravel rests on top of the
+box. The coefficients of friction
+between the box and roof are µ =
+s
+0.68 and µ = 0.43. Find the
+k
+magnitude of the friction force that
+the roof exerts on the box. The
+gravitational acceleration is g = 9.8
+2
+m/s . (607.6 N)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 9 из 40
+--- PAGE 10 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P39. At a construction site, a 63-
+kg bucket of concrete hangs from
+a light strong cable that passes
+over a light friction-free pulley and
+is connected to an 80-kg box on a
+horizontal roof. The cable pulls
+horizontally on the box, and a 48-
+kg bag of gravel rests on top of the
+box. The coefficients of friction
+between the box and roof are µ =
+s
+0.68 and µ = 0.45. Suddenly a
+k
+worker picks up the bag of gravel.
+Find the speed of the bucket after
+it has descended 2 m, from rest.
+The gravitational acceleration is g
+2
+= 9.8 m/s . (2.721 m/s)
+P40. A 1 kg block is pushed
+against a spring with negligible
+mass and force constant k = 480
+N/m, compressing it 0.12 m. When
+the block is released, it moves
+along a frictionless incline with
+slope 37˚. How far does the block
+travel up the incline before starting
+to slide back down? The
+gravitational acceleration is g = 9.8
+2
+m/s . (0.586 m)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 10 из 40
+--- PAGE 11 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P41. A 1.9 kg block is pushed
+against a spring with negligible
+mass and force constant k = 460
+N/m, compressing it 0.1 m. When
+the block is released, it moves
+along a frictionless incline with
+slope 30°. What is the speed of
+the block at the instant it loses
+contact with the spring? The
+gravitational acceleration is g = 9.8
+m/s². (1.55597 m/s)
+P42. A 3 kg block is pushed
+against a spring with negligible
+mass and force constant k = 450
+N/m, compressing it 0.26 m (1 in
+Figure below). When the block is
+released, it moves along a
+frictionless surface (2 in Figure
+below). What is the speed of the
+block as it slides along the
+horizontal surface having left the
+spring? (3.184 m/s)
+P43. On the way up the hill, a car
+shows the sign of “fuel starvation”.
+To reach the top of the hill of 18.5
+m high, calculate how fast the car
+must be moving. The gravitational
+2
+acceleration is g = 9.8 m/s .
+(19.04205871223 m/s)
+P44. On a horizontal surface, a
+crate with mass 37 kg is placed
+against a spring that stores 410 J
+of energy. The spring is released,
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 11 из 40
+--- PAGE 12 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+and the crate slides 5 m before
+coming to rest due to friction. What
+is the speed of the crate when it is
+2 m from its initial position? (3.647
+m/s)
+P45. On a horizontal surface, a
+crate with mass 47 kg is placed
+against a spring that stores 480 J
+of energy. The spring is released,
+and the crate slides 5.8 m before
+coming to rest. What is the speed
+of the crate when it is 2.1 m from
+its initial position? (3.60972 m/s)
+P46. The block of mass of 0.38 kg
+is dropped from a height h=69 cm
+on the left elevated end of a small
+track with frictionless curved
+sections and a flat central part of
+L=1.2 m length, where the
+coefficient of kinetic friction is 0.15.
+What is the highest point the
+block can be on the right elevated
+end of the track? The gravitational
+2
+acceleration is g = 9.8 m/s . (0.51
+m)
+P47. A 22 kg stone slides down a
+snow-covered hill, leaving point A
+with a speed of 12 m/s as shown
+in Figure below. There is no
+friction on the hill between points A
+and B. Height of the hill is 40 m.
+What is the speed of the stone
+when it reaches point B? The
+gravitational acceleration is g = 9.8
+2
+m/s . (30.46 m/s)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 12 из 40
+--- PAGE 13 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P48. A 2.5 kg watermelon is
+dropped from rest from the roof of
+a 19 m tall building and feels no
+appreciable air resistance. Just
+before it strikes the ground, what
+is the watermelon's kinetic
+energy? The gravitational
+2
+acceleration is g = 9.8 m/s .
+(465.5 J)
+P49. A 3.7 kg watermelon is
+dropped from rest from the roof of
+a 23 m tall building and feels no
+appreciable air resistance. Just
+before it strikes the ground, what
+is the watermelon's speed? The
+gravitational acceleration is g = 9.8
+m/s². (21.2321 m/s)
+P50. A block with mass 1 kg is
+forced against a horizontal spring
+of negligible mass, compressing
+the spring a distance of 0.22 m.
+When released, the block moves
+on a horizontal tabletop for 1.8 m
+before coming to rest. The spring
+constant k is 160 N/m. What is the
+coefficient of kinetic friction
+µ between the block and the
+k
+table? The gravitational
+2
+acceleration is g = 9.8 m/s .
+(0.2195)
+P51. A block with mass 1.6 kg is
+forced against a horizontal spring
+of negligible mass, compressing
+the spring a distance of 0.21 m.
+The spring constant k is 135 N/m.
+When released, the block moves
+on a horizontal tabletop whose
+coefficient of kinetic friction with
+the block is 0.24. How far does the
+block travel before coming to rest?
+The gravitational acceleration is g
+= 9.8 m/s². (0.791016 m)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 13 из 40
+--- PAGE 14 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P52. A 700-gram rubber ball is
+dropped from an initial height of
+2.25 m, and on each bounce it
+returns to 70% of its previous
+height. Find the amount (the
+absolute value) of the mechanical
+energy that the ball loses during its
+first bounce. The gravitational
+2
+acceleration is g = 9.8 m/s .
+(4.6305 J)
+P53. A 730-gram rubber ball is
+dropped from an initial height of
+2.65 m, and on each bounce it
+returns to 64% of its previous
+height. Find the amount (the
+absolute value) of the mechanical
+energy that the ball loses during its
+second bounce. The gravitational
+acceleration is g = 9.8 m/s².
+(4.36795 J)
+P54. A car in an amusement park
+ride rolls without friction around
+the track. It starts from rest at point
+A at a height h above the bottom
+of the loop. Radius of the loop is
+14 m. What is the minimum value
+of h such that the car moves
+around the loop without falling off
+at the top (point B?) (35 m)
+P55. A car in an amusement park
+ride rolls without friction around a
+vertical loop of radius 17 m. It
+starts from rest at the minimum
+height that allows it to maintain
+contact with the track at the top of
+the loop. What is the speed of the
+car at the bottom of the loop? The
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 14 из 40
+--- PAGE 15 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+gravitational acceleration is g = 9.8
+m/s². (28.8617 m/s)
+P56. A 29-kg rock approaches the
+foot of a hill with a speed of 16
+m/s. The hill slopes upward at a
+constant angle of 41° above the
+horizontal. The coefficients of
+static and kinetic friction between
+the hill and the rock are 0.78 and
+0.2, respectively. Find the
+maximum height above the foot of
+the hill reached by the rock. The
+gravitational acceleration is g = 9.8
+2
+m/s . (10.618 m)
+P57. A 32.5-kg rock approaches
+the foot of a hill with a speed of 12
+m/s. The hill slopes upward at a
+constant angle of 35° above the
+horizontal. The coefficient of
+kinetic friction between the hill and
+the rock is 0.19. Find the distance
+the rock travels along the incline
+before coming to a stop. The
+gravitational acceleration is g = 9.8
+m/s². (10.0751 m)
+P58. A 3.7-kg block slides over the
+smooth, icy hill. The top of the hill
+is horizontal and h = 79 m higher
+1
+than its base. What minimum
+speed must the block have at the
+base of the hill so that it will not fall
+into the pit on the far side of the
+hill that is h = 59 m above the
+2
+base? The distance between the
+top and the far side pit is d = 38 m.
+The gravitational acceleration is
+2
+g = 9.8 m/s . (43.614 m/s)
+P59. A 3.3-kg block slides over a
+smooth, icy hill. The top of the hill
+is horizontal and 24 m higher than
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 15 из 40
+--- PAGE 16 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+its base. The block has a speed of
+45.5 m/s at the base of the hill.
+What is its speed at the top of the
+hill? The gravitational acceleration
+is g = 9.8 m/s². (39.9981 m/s)
+Impulse and collisions
+P60. A bungee jumper leaps off a
+bridge whose deck is 50 m above
+the water. Jumper mass is 72.6 kg,
+the bungee cord is 22.5 m long,
+and the jumper falls to 7 m above
+the water before the bungee cord
+pulls him back up. What is the
+magnitude of the impulse exerted
+on the bungee jumper while the
+cord stretches? The gravitational
+2
+acceleration is g = 9.8 m/s .
+(1524.6 kg m/s)
+P61. A 327 g handball moving at a
+speed of 5.2 m/s strikes a wall at
+an angle of 54.7 degree to the
+normal of the wall and then
+bounces off with the same speed
+at the same angle. It is in contact
+with the wall for 0.005 s. What is
+the average force exerted by the
+ball on the wall? (393.04 N)
+P62. A 330 g handball moving at a
+speed of 5.9 m/s strikes a wall
+head-on, perpendicular to its
+surface, and bounces straight
+back with the same speed. It is in
+contact with the wall for 0.005 s.
+What is the magnitude of the
+average force exerted by the ball
+on the wall? (778.8 N)
+P63. When a gangster sprays
+Superman with 1.6 g bullets at a
+rate of 146 bullets/min, these
+bullets simply bounce off
+Superman's chest with no change
+in speed of 430 m/s. Find the
+average force exerted by the
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 16 из 40
+--- PAGE 17 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+stream of bullets on Superman's
+chest. (3.348 N)
+P64. When a gangster sprays
+Superman with 1.7 g bullets at a
+rate of 146 bullets/min, the bullets
+embed themselves in Superman's
+chest, arriving at a speed of 445
+m/s. Find the magnitude of the
+average force exerted by the
+stream of bullets on Superman's
+chest. (1.84082 N)
+P65. A steel ball with mass 44 g is
+dropped from a height of 2.5 m
+onto a horizontal steel slab. The
+ball rebounds to a height of 1.5 m.
+Calculate the magnitude of the
+impulse delivered to the ball during
+impact. The gravitational
+2
+acceleration is g = 9.8 m/s .
+(0.547 kg m/s)
+P66. A steel ball with mass 51 g is
+dropped from a height of 2.75 m
+onto a horizontal slab of soft clay,
+and it does not rebound. Calculate
+the magnitude of the impulse
+delivered to the ball during the
+impact. The gravitational
+acceleration is g = 9.8 m/s².
+(0.374425 kg m/s)
+P67. A steel ball with mass 59 g is
+dropped from a height of 2.5 m
+onto a horizontal steel slab. The
+ball rebounds to a height of 1.6 m.
+If the ball is in contact with the slab
+for 2 ms, find the magnitude of the
+average force on the ball during
+impact. The gravitational
+2
+acceleration is g = 9.8 m/s .
+(371.7 N)
+P68. Just before it is struck by a
+racket, a tennis ball weighing 0.7
+N has a velocity of 24 m/s iˆ - 3
+m/s jˆ. During the 4 ms that the
+racket and ball are in contact, the
+net force on the ball is constant
+and equal to - 382 N iˆ + 107 N jˆ.
+What is the magnitude of the
+impulse of the net force applied to
+the ball? (1.5868 N s)
+P69. Just before it is struck by a
+racket, a tennis ball weighing 0.65
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 17 из 40
+--- PAGE 18 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+N has a velocity of 19 m/s iˆ - 4
+m/s jˆ . During the 4 ms that the
+racket and ball are in contact, the
+net force on the ball is constant
+and equal to - 392 N iˆ + 108 N jˆ.
+What is the magnitude of the final
+velocity of the ball? The
+gravitational acceleration is g = 9.8
+2
+m/s . (5.278 m/s)
+P70. A rubber ball of mass 0.55 kg
+is released from rest at height 2.1
+m above the floor. After its first
+bounce, it rises to 75% of its
+original height. What impulse does
+the floor exert on this ball during
+its first bounce? The gravitational
+2
+acceleration is g = 9.8 m/s .
+(6.584 N s)
+P71. A rubber ball of mass 0.45 kg
+is released from rest at a height of
+2.4 m above the floor. After its first
+bounce, it rises to 84% of its
+original height. What fraction of its
+kinetic energy does the ball lose
+during the bounce? The
+gravitational acceleration is g = 9.8
+m/s². (0.16)
+Conservation of linear
+momentum
+P72. Figure shows a ballistic
+pendulum. Initially, the pendulum
+is at rest. The bullet strikes the
+block horizontally and remains
+stuck in it. The impact of the bullet
+puts the block in motion, causing it
+to swing upward to a height h. If
+the bullet has a mass of 15 g, and
+the block of mass 7.3 kg swings
+up to a height of 6.6 cm, what was
+the speed of the bullet before
+impact? The gravitational
+2
+acceleration is g = 9.8 m/s .
+(554.655 m/s)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 18 из 40
+--- PAGE 19 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P73. A ballistic pendulum is initially
+at rest. A bullet of mass 11.5 g
+strikes a block of mass 6.6 kg
+horizontally at 510 m/s and
+remains stuck in it, putting the
+block in motion. To what height
+does the block swing? The
+gravitational acceleration is g = 9.8
+m/s². (0.0401495 m)
+Published using Google Docs Report abuse Learn more
+Updated automatically every 5
+PHYS161_Exam2_new.docx
+minutes
+P74. A linebacker with mass 85 kg
+and initial speed 3.17 m/s makes a
+perfectly inelastic collision with a
+86 kg quarterback that is initially at
+rest. Find the speeds of the
+players just after their collision.
+(1.5757 m/s)
+P75. A linebacker with mass 90 kg
+and initial speed 3.98 m/s makes a
+perfectly inelastic collision with a
+84 kg quarterback that is initially at
+rest. How much kinetic energy is
+lost in the collision? (344.119 J)
+P76. Two masses M = 8 kg and
+1
+M = 4 kg collide elastically. The
+2
+initial velocity of the first mass
+M is 5 m/s, whereas the second
+1
+mass M is starting its motion only
+2
+after the collision. Find the speed
+of the second mass after the
+collision. (6.667 m/s)
+P77. Two masses M₁ = 9.5 kg and
+M₂ = 3 kg collide elastically. The
+initial velocity of the first mass M₁
+is 3 m/s, whereas the second
+mass M₂ is at rest before the
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 19 из 40
+--- PAGE 20 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+collision. Find the speed of the first
+mass after the collision. (1.56 m/s)
+P78. On a frictionless horizontal
+surface two blocks of masses 2.1
+kg and 2.9 kg are connected by a
+spring of stiffness k=820 N/m and
+negligible mass. Initially, the
+blocks are pushed together to
+compress the spring by distance
+d=19 cm from its equilibrium
+length and the configuration is
+fixed by a cord that holds the
+blocks. When the cord is cut, the
+blocks move in opposite
+directions. Calculate the speed of
+the first block. (2.859 m/s)
+P79. On a frictionless horizontal
+surface two blocks of masses 2.3
+kg and 3 kg are connected by a
+spring of stiffness k = 890 N/m and
+negligible mass. Initially, the
+blocks are pushed together to
+compress the spring by a distance
+d = 22 cm from its equilibrium
+length and the configuration is
+fixed by a cord. When the cord is
+cut, the blocks move in opposite
+directions. Calculate the speed of
+the second block. (2.49622 m/s)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 20 из 40
+--- PAGE 21 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P80. An object of mass 520 gram
+has an initial velocity of −2.6 m/s
+i+1.1 m/s j. It collides with and
+sticks to another object of mass
+880 gram moving with an initial
+velocity of 5.5 m/s i+2.3 m/s j+2.9
+m/s k (here i, j, and k are unit
+vectors along the x-, y-, and z-axis
+respectively). Find the magnitude
+of the speed of the composite
+object. (3.601 m/s)
+P81. A block of mass 1 kg stays at
+rest on a horizontal surface with
+coefficient of kinetic friction 0.15.
+When an arrow of mass 260 g
+strikes the block with the speed 30
+m/s it gets stuck in the block. Find
+the distance to which the block
+with the arrow will slide after the
+strike till they come to rest. The
+gravitational acceleration is g = 9.8
+2
+m/s . (13.035 m)
+P82. A block of mass 1.3 kg stays
+at rest on a horizontal surface
+whose coefficient of kinetic friction
+is 0.24. An arrow of mass 235 g
+strikes the block with a speed of
+26 m/s and gets stuck in the block.
+How much kinetic energy is lost
+during the collision? The
+gravitational acceleration is g = 9.8
+m/s². (67.2697 J)
+P83. When an arrow of mass 260
+g strikes the brick of mass 0.8 kg,
+staying at rest on a horizontal
+surface, the arrow gets stuck in
+the brick and they begin to move
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 21 из 40
+--- PAGE 22 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+straight till they stop because of
+the friction between the brick and
+the surface. If the initial speed of
+the arrow before the strike was 49
+m/s and the distance the block
+with the arrow moved after the
+strike was 2880 cm, what was the
+coefficient of kinetic friction
+between the brick and the surface.
+The gravitational acceleration is g
+2
+= 9.8 m/s . (0.256)
+P84. An astronaut runs out of fuel
+in her power pack while drifting at
+3 m/s away from the International
+Space Station. Remembering what
+she learned in physics class she
+removes her 30 kg power pack
+and throws it away at 4 m/s
+relative to the Station and in the
+direction away from the Station.
+The mass of the astronaut plus
+space suit, minus the power pack,
+is 106 kg. Calculate the new
+velocity of the astronaut relative to
+the Space Station. Take the
+direction towards the Space
+Station as positive. (-2.717 m/s)
+P85. An astronaut of total mass
+107 kg, including her power pack,
+runs out of fuel while drifting at 3.4
+m/s away from the International
+Space Station. She removes her
+25 kg power pack and throws it
+directly away from the Station at
+4.8 m/s relative to the Station.
+What is her speed immediately
+after the throw? (2.97317 m/s)
+P86. In a volcanic eruption, a
+2450-kg boulder is thrown
+vertically upward into the air. At its
+highest point, it suddenly explodes
+due to trapped gas into two
+fragments, one being 3 times the
+mass of the other. The lighter
+fragment starts out with only
+horizontal velocity and lands 350
+m directly north of the point of the
+explosion. How far from the
+explosion will the other fragment
+land? Neglect any other air
+resistance. (116.67 m)
+P87. In a volcanic eruption, a
+2600-kg boulder is thrown
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 22 из 40
+--- PAGE 23 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+vertically upward into the air. At its
+highest point it suddenly explodes
+into two fragments, one being 3
+times the mass of the other. The
+lighter fragment starts out with
+only a horizontal velocity of 44.5
+m/s. What is the horizontal speed
+of the heavier fragment
+immediately after the explosion?
+(14.8333 m/s)
+P88. 4 coupled railroad cars roll
+along and couple with a 5th car,
+which is initially at rest. These 5
+cars roll along and couple with a
+6th car initially at rest. This
+process continues until the speed
+of the final collection of railroad
+cars is 1/6 the speed of the initial 4
+railroad cars. All the cars are
+identical. Ignoring friction, how
+many cars are in the final
+collection? (24)
+P89. A 1250-kg blue convertible is
+traveling south, and a 1850-kg red
+SUV is traveling west. If the total
+momentum of the system
+consisting of the two cars is 77000
+kg ⋅ m/s directed at 30° west of
+south, what is the speed of an
+SUV? (20.81 m/s)
+P90. A 1240-kg blue convertible is
+traveling south, and a 2000-kg red
+SUV is traveling west. If the total
+momentum of the system
+consisting of the two cars is 68000
+kg·m/s directed at 60° west of
+south, what is the speed of the
+convertible? (27.4194 m/s)
+P91. A 1300-kg blue convertible is
+traveling south, and a 2150-kg red
+SUV is traveling west. If the total
+momentum of the system
+consisting of the two cars is 77000
+kg ⋅ m/s directed at 60° west of
+south, what is the speed of the
+blue convertible? (29.615 m/s)
+Rocket propulsion
+P92. A rocket has a payload of 6.5
+percent of its total mass, the rest
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 23 из 40
+--- PAGE 24 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+being fuel. If this rocket starts from
+rest and moves with no external
+forces acting on it, what is its final
+velocity if the exhaust velocity of
+the gas is 4.1 km/s? (11.2068
+km/s)
+P93. A rocket starts from rest and
+moves with no external forces
+acting on it. The exhaust velocity
+of the gas is 3.9 km/s. What
+fraction of the rocket's total mass
+can be payload if its final velocity
+is to be 11.7 km/s? (0.0497871)
+Moment of Inertia
+P94. A stick of length 1.3 m is held
+vertically with one end on the floor
+and is then allowed to fall. Find the
+speed of the other end when it hits
+the floor, assuming that the end on
+the floor does not slip. The
+gravitational acceleration is g = 9.8
+m/s². (6.182 m/s)
+P95. Assume a simple non-
+uniform model of Earth's density
+with an inner spherical region of
+density 6200 kg/m^3 and the outer
+(spherical shell) region of density
+4300 kg/m^3. Taking the radius of
+the Earth as 6110000 m and
+moment of inertia as 8.5E+37
+kg*m^2, calculate the radius of the
+inner region. (5945403.82 m)
+P96. A sphere consists of a solid
+wooden ball of uniform density 805
+3
+kg/m and radius 0.225 m and is
+covered with a thin coating of lead
+2
+foil with area density 19 kg/m .
+Calculate the moment of inertia of
+this sphere about an axis passing
+through its center. (1.1857 kg m^2)
+P97. A thin uniform rod 68 cm long
+with mass 0.5 kg is bent at its
+center into a V shape, with a 70°
+angle at its vertex. Find the
+moment of inertia of this V-shaped
+object about an axis perpendicular
+to the plane of the V at its vertex.
+(0.01927 kg m^2)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 24 из 40
+--- PAGE 25 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P98. A flywheel is made of iron
+3
+(density 7800 kg/m ) in the shape
+of a 11-cm-thick uniform disk.
+What would the diameter of such a
+disk need to be if it is to store 10
+megajoules of kinetic energy when
+spinning at 85 rpm about an axis
+perpendicular to the disk at its
+center? (7.399 m)
+P99. A flywheel is made of iron
+3
+(density 7800 kg/m ) in the shape
+of a 9.5-cm-thick uniform disk. If it
+is to store 8 megajoules of kinetic
+energy when spinning at 85 rpm
+about an axis perpendicular to the
+disk at its center, what would be
+the centripetal acceleration of a
+point on its rim when spinning at
+this rate? (287.55 m/s^2)
+P100. While redesigning a rocket
+engine, in order to reduce weight,
+a solid spherical part is replaced
+with a hollow spherical shell of the
+same size. The parts rotate about
+an axis through their center. You
+need to make sure that the new
+part always has the same
+rotational kinetic energy as the
+original part had at any given rate
+of rotation. If the original part had
+a mass of 180 kg, what must be
+the mass of the new part? (108 kg)
+P101. A uniform, solid disk with
+mass 170 kg and radius 4 m is
+pivoted about a horizontal axis
+through its center. A small object
+of the same mass of 170 kg is
+glued to the rim of the disk. If the
+disk is released from rest with the
+small object at the end of a
+horizontal radius, find the angular
+speed when the small object is
+directly below the axis. The
+gravitational acceleration is g = 9.8
+2
+m/s . (1.807 rad/s)
+P102. A uniform, solid disk with
+mass 135 kg and radius 4.9 m is
+pivoted about a horizontal axis
+through its center. A small object
+of mass 165 kg is glued to the rim
+of the disk. The disk is released
+from rest with the small object at
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 25 из 40
+--- PAGE 26 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+the end of a horizontal radius. Find
+the magnitude of the angular
+acceleration of the disk at the
+instant it is released. The
+gravitational acceleration is g = 9.8
+m/s². (1.41935 rad/s^2)
+P103. A metal sign for a car
+dealership is a thin, uniform right
+triangle with base length of 3.8 m
+and height of 1.7 m. The sign has
+a mass of 3 kg. What is the
+moment of inertia of the sign for
+rotation about the side of 1.7 m in
+length. (7.22 kg m^2)
+P104. A metal sign for a car
+dealership is a thin, uniform right
+triangle with base length of 4.4 m
+and height of 1.8 m. The sign has
+a mass of 4 kg. What is the kinetic
+energy of the sign when it is
+rotating about an axis along the
+1.8 m side at 2.2 rev/s? (1233.07
+J)
+P105. A thin, uniform 11-kg bar
+that is 2.6 m long rotates uniformly
+about a pivot at one end, making 6
+complete revolutions every 3
+seconds. What is the kinetic
+energy of this bar? (1957.08 J)
+P106. A thin, uniform 11-kg bar
+that is 2.2 m long rotates uniformly
+about a pivot at its center, making
+5 complete revolutions every 3
+seconds. What is the kinetic
+energy of this bar? (243.267 J)
+Rotation
+P107. A wheel starts to rotate from
+rest with constant angular
+acceleration of 1.4 rad/s2. It turns
+through an angle of 71 rad in an
+interval of 1.4 s. How long has the
+wheel been in motion at the start
+of this interval? (35.525 s)
+P108. The rotating blade of a
+blender turns with constant
+angular acceleration 1.3 rad/s2. At
+some moment of time it reaches
+an angular velocity of 48 rad/s,
+starting from rest. Through how
+many revolutions does the blade
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 26 из 40
+--- PAGE 27 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+turn in this time interval? Provide
+the answer in decimals. (141.04)
+P109. A solid wheel undergoes a
+constant angular acceleration
+starting from rest at t = 0 s. When
+t=2 s, the angular velocity of the
+wheel is 4.8 rad/s. The
+acceleration continues until t=14 s,
+when the acceleration abruptly
+changes to 0 rad/s^2. Through
+what angle does the wheel rotate
+in the interval t=0 s to t=38 s?
+(1041.6 rad)
+P110. A solid wheel undergoes a
+constant angular acceleration
+starting from rest at t = 0 s. When t
+= 2.5 s, the angular velocity of the
+wheel is 6 rad/s. The acceleration
+continues until t = 15.5 s, when the
+acceleration abruptly changes to 0
+rad/s². What is the angular velocity
+of the wheel at t = 20.5 s? (37.2
+rad/s)
+P111. Spherically symmetric object
+with radius R = 0.39 m and mass
+M = 2.1 kg rolls without slipping
+across a horizontal floor with
+velocity V = 1.9 m/s. It then rolls
+up an incline with an angle of
+inclination θ = 37° and comes to
+rest a distance d = 3.7 m up the
+incline before reversing direction
+and rolling back down. Find the
+moment of inertia of this object
+about an axis through its center of
+mass. The gravitational
+2
+acceleration is g = 9.8 m/s .
+(3.542 kg m^2)
+P112. A spherically symmetric
+object with radius R = 0.3 m and
+mass M = 2.3 kg slides without
+friction across a horizontal floor
+with velocity V = 1.65 m/s. It then
+slides up a frictionless incline with
+an angle of inclination θ = 30°.
+How far along the incline does it
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 27 из 40
+--- PAGE 28 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+travel before coming to rest? The
+gravitational acceleration is g = 9.8
+m/s². (0.277806 m)
+P113. A safety device brings the
+blade of a power mower from an
+initial angular speed w to rest in 1
+1
+revolution. At the same constant
+acceleration, what angle of
+rotation would it take the blade to
+come to rest from an initial angular
+speed w that is 4 times as great,
+2
+w = 4w ? Provide the answer in
+2 1
+units of radian (rad). (100.53 rad)
+P114. A rocket is to be launched
+from earth to Mars, when earth
+and Mars are aligned along a
+straight line from the sun. If Mars
+is now 52° ahead of earth in its
+orbit around the sun, when should
+you launch the rocket? All planets
+orbit the sun in the same direction,
+1 year on Mars is 1.9 earth-years,
+and assume circular orbits for both
+planets. Taking 1 year = 365 days,
+provide the answer in units of days
+(days). (111.30 days)
+P115. A roller in a printing press
+turns through an angle θ(t) given
+2 3
+by θ(t) = γt - βt , where γ = 3.2
+2 3
+rad/s and β = 0.43 rad/s .
+Calculate the angular velocity of
+the roller at t = 4 s. (4.96 rad/s)
+P116. A roller in a printing press
+turns through an angle θ(t) given
+by θ(t) = γ t² - β t³, where γ = 2.9
+rad/s² and β = 0.41 rad/s³.
+Calculate the average angular
+velocity of the roller between t = 0
+and t = 3 s. (5.01 rad/s)
+P117. A roller in a printing press
+turns through an angle θ(t) given
+2 3
+by θ(t) = γt - βt , where γ = 2.8
+2 3
+rad/s and β = 0.54 rad/s .
+Calculate the angular acceleration
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 28 из 40
+--- PAGE 29 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+of the roller at t = 8 s. (-20.32
+rad/s^2)
+P118. A roller in a printing press
+turns through an angle θ(t) given
+2 3
+by θ(t) = γt - βt , where γ = 3.5
+2 3
+rad/s and β = 0.46 rad/s . At
+what value of t does the maximum
+positive angular velocity occur?
+(2.536 s)
+Torque
+P119. Two point-like particles with
+masses m =8.5 kg and m =1.7 kg
+1 2
+are attached at the ends of a
+uniform rigid rod with mass M=9.8
+kg and length L=1.5 m, rotating in
+the vertical plane about a
+frictionless pivot through its center.
+What is the magnitude of the
+angular acceleration of the system
+when the rod makes an angle of
+32° with the horizontal? The
+gravitational acceleration is g = 9.8
+m/s². (5.595 rad/s^2)
+P120. Two point-like particles with
+masses m₁ = 8 kg and m₂ = 1.2 kg
+are attached at the ends of a
+uniform rigid rod with mass M = 8
+kg and length L = 1.3 m. Find the
+moment of inertia of this system
+about an axis through the center of
+the rod and perpendicular to it.
+(5.01367 kg m^2)
+P121. A 58-kg grindstone is a solid
+disk 0.5 m in diameter. You press
+an ax down on the rim with a
+normal force of 160 N. The
+coefficient of kinetic friction
+between the blade and the stone
+is 0.59, and there is a constant
+friction torque of 5.5 N⋅m between
+the axle of the stone and its
+bearings. How much force must be
+applied tangentially at the end of a
+crank handle 0.47 m long to bring
+the stone from rest to 140 rev/min
+in 7 s? (69.99 N)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 29 из 40
+--- PAGE 30 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P122. A 54-kg grindstone is a solid
+disk 0.6 m in diameter, spinning at
+35.5 rad/s. You press an ax down
+on the rim with a normal force of
+130 N. The coefficient of kinetic
+friction between the blade and the
+stone is 0.61, and there is a
+constant friction torque of 5.9 N·m
+between the axle of the stone and
+its bearings. How long does it take
+the grindstone to come to rest?
+(2.90552 s)
+P123. A 52-kg grindstone is a solid
+disk 0.55 m in diameter. You press
+an ax down on the rim with a
+normal force of 130 N. The
+coefficient of kinetic friction
+between the blade and the stone
+is 0.55, and there is a constant
+friction torque of 6 N⋅m between
+the axle of the stone and its
+bearings. How much time does it
+take the grindstone to come from
+130 rev/min to rest if it is acted on
+by the axle friction only? (4.461 s)
+P124. A 57-kg grindstone is a solid
+disk 0.65 m in diameter. You press
+an ax down on the rim with a
+normal force of 130 N. The
+coefficient of kinetic friction
+between the blade and the stone
+is 0.58, and there is a constant
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 30 из 40
+--- PAGE 31 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+friction torque of 6 N⋅m between
+the axle of the stone and its
+bearings. After the grindstone
+attains an angular speed of 120
+rev/min, what tangential force at
+the end of the handle 0.49 m long
+is needed to maintain a constant
+angular speed of 120 rev/min?
+(62.255 N)
+P125. An experimental bicycle
+wheel is placed on a test stand so
+that it is free to turn on its axle. If a
+constant net torque of 4.9 N⋅m is
+applied to the tire for 1.8 s, the
+angular speed of the tire increases
+from 0 to 140 rev/min. The
+external torque is then removed,
+and the wheel is brought to rest by
+friction in its bearings in 110 s.
+Compute the moment of inertia of
+the wheel about the rotational axis.
+Ignore the contribution of friction to
+accelerating motion of the wheel.
+(0.6016 kg m^2)
+P126. An experimental bicycle
+wheel is placed on a test stand so
+that it is free to turn on its axle. If a
+constant net torque of 4.7 N⋅m is
+applied to the tire for 2.55 s, the
+angular speed of the tire increases
+from 0 to 120 rev/min. The
+external torque is then removed,
+and the wheel is brought to rest by
+friction in its bearings in 121 s.
+Compute the magnitude of the
+friction torque. Ignore the
+contribution of friction to
+accelerating motion of the wheel.
+(0.09905 N m)
+P127. An experimental bicycle
+wheel is placed on a test stand so
+that it is free to turn on its axle. If a
+constant net torque of 4.9 N⋅m is
+applied to the tire for 1.45 s, the
+angular speed of the tire increases
+from 0 to 120 rev/min. The
+external torque is then removed,
+and the wheel is brought to rest by
+friction in its bearings in 107 s.
+Compute the total angle of
+revolution made by the wheel in
+the 107-s time interval. Provide the
+answer in radians (rad). Ignore the
+contribution of friction to
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 31 из 40
+--- PAGE 32 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+accelerating motion of the wheel.
+(672.30 rad)
+P128. The flywheel of an engine
+has a moment of inertia 4.9
+2
+kg⋅m about its rotation axis.
+What constant torque is required
+to bring it up to an angular speed
+of 130 rev/min in 7 s, starting from
+rest? (9.5295 N m)
+P129. The flywheel of an engine
+has a moment of inertia 3.6 kg·m²
+about its rotation axis. A constant
+torque brings it up to an angular
+speed of 146 rev/min in 7.5 s,
+starting from rest. Through how
+many revolutions does the
+flywheel turn during this time?
+(9.125)
+P130. A uniform, 8.6-kg spherical
+shell 72 cm in diameter has four
+small 1.6-kg masses attached to
+its outer surface and equally
+spaced around it. This
+combination is spinning about an
+axis running through the center of
+the sphere and two of the small
+masses. What friction torque is
+needed to reduce its angular
+speed from 95 rpm to 50 rpm in 27
+s? Assume torque causing
+acceleration is in positive direction.
+(-0.2021 N m)
+P131. A uniform, 7.3-kg spherical
+shell 69 cm in diameter has four
+small 1.6-kg masses attached to
+its outer surface and equally
+spaced around it. This
+combination spins about an axis
+running through the center of the
+sphere and two of the small
+masses. What is the moment of
+inertia of the combination about
+this axis? (0.960135 kg m^2)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 32 из 40
+--- PAGE 33 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P132. Three forces are applied to
+a wheel as shown in Figure below.
+One force is perpendicular to the
+rim |F |= 10.8 N, the one makes a
+1
+48˚ angle with the radius |F2|=
+15.7 N, and the other one is
+tangent to the rim |F |= 8 N. The
+3
+magnitude of net torque on the
+wheel due to these three forces for
+an axis perpendicular to the wheel
+and passing through its center is
+2.19 N·m. What is the radius of
+the wheel? (0.597 m)
+Angular momentum
+P133. A solid cylinder of mass
+17.9 kg and radius 0.15 m is
+mounted on a fixed vertical axis
+that runs through its center of
+mass. A bullet of mass 0.17 kg is
+fired with a velocity of 79.7 m/s
+into the cylinder at rest, with the
+line of motion of the bullet
+perpendicular to the cylinder axis
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 33 из 40
+--- PAGE 34 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+and at a distance d = 0.03 m from
+the center. What is the angular
+speed of the system after the
+bullet strikes and adheres to the
+surface of the cylinder? (1.981
+rad/s)
+P134. Student with mass 64.1 kg
+walks slowly from the rim toward
+the center of a horizontal circular
+platform with mass 76.3 kg and
+radius r = 2.9 m, rotating about a
+frictionless vertical axle. The
+angular velocity of the system is
+5.2 rad/s when the student is at
+the rim. Find the angular velocity
+of the system when the student is
+1.24 m from the center. (10.662
+rad/s)
+P135. A student with mass 65.3 kg
+walks slowly from the rim toward
+the center of a horizontal circular
+platform of mass 79 kg and radius
+3.2 m, rotating about a frictionless
+vertical axle. By what factor does
+the total kinetic energy of the
+system increase by the time the
+student reaches the center?
+(2.65316)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 34 из 40
+--- PAGE 35 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P136. A block of mass m = 2 kg
+slides from rest down a frictionless
+surface through a height h = 0.66
+m. At the bottom it strikes the
+lower end of a uniform vertical rod
+of mass M = 3.6 kg and length l =
+2.6 m that hangs from a
+frictionless pivot O at its upper
+end, and sticks to it (see Figure
+below). Find the angular velocity of
+the rod and block immediately
+after the collision. The gravitational
+acceleration is g = 9.8 m/s².
+(0.864583 rad/s)
+P137. A block of mass m = 2.3 kg
+has just struck and stuck to the
+lower end of a uniform vertical rod
+of mass M = 3.3 kg and length l =
+2.4 m that hangs from a
+frictionless pivot O at its upper end
+(see Figure below). Immediately
+after the collision the rod and block
+rotate about the pivot with angular
+velocity ω = 0.6 rad/s. Find the
+angle θ through which the rod
+swings before momentarily coming
+to rest. Provide the answer in
+radians. The gravitational
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 35 из 40
+--- PAGE 36 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+acceleration is g = 9.8 m/s².
+(0.276355 rad)
+P138. A 5-kg ball is dropped from
+a height of 8 m above one end of a
+uniform bar that pivots about its
+center. The bar has a mass of 5.5
+kg and is 4.2 m long. At the other
+end of the bar sits another ball of
+mass 4.6 kg. The dropped ball
+sticks to the bar after the collision.
+Find the angular velocity of the bar
+immediately after the collision. The
+gravitational acceleration is g = 9.8
+m/s². (2.60766 rad/s)
+P139. A uniform bar of length 3 m
+pivots about its center and,
+immediately after being struck,
+rotates with angular velocity ω =
+3.6 rad/s. A ball of mass 3 kg
+resting on the far end of the bar,
+unattached to it, is launched
+straight up. How high above its
+starting point does that ball rise?
+The gravitational acceleration is g
+= 9.8 m/s². (1.48776 m)
+P140. A target in a shooting
+gallery consists of a vertical
+square wooden board, 0.25 m on
+a side and with mass 0.85 kg, that
+pivots on a horizontal axis along
+its top edge. The board is stuck
+face-on at its center by a bullet
+with mass 1.8 g that is traveling at
+350 m/s and that remains
+embedded in the board. What is
+the angular speed of the board just
+after the bullet's impact? (4.44
+rad/s)
+P141. A target in a shooting
+gallery consists of a vertical
+square wooden board, 0.23 m on
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 36 из 40
+--- PAGE 37 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+a side and with mass 0.95 kg, that
+pivots on a horizontal axis along
+its top edge. The board is struck
+face-on at its center by a bullet
+with mass 2 g that is traveling at
+355 m/s. What is the magnitude of
+the angular momentum of the
+bullet about the pivot axis just
+before impact? (0.08165 kg m^2/s)
+P142. A target in a shooting
+gallery consists of a vertical
+square wooden board, 0.3 m on a
+side and with mass 0.9 kg, that
+pivots on a horizontal axis along
+its top edge. The board is stuck
+face-on at its center by a bullet
+with mass 2.2 g that is traveling at
+340 m/s and that remains
+embedded in the board. What
+maximum height above the
+equilibrium position does the
+center of the board reach before
+starting to swing down again? The
+gravitational acceleration is g = 9.8
+2
+m/s . (0.02632 m)
+P143. A target in a shooting
+gallery consists of a vertical
+square wooden board, 0.2 m on a
+side and with mass 0.9 kg, that
+pivots on a horizontal axis along
+its top edge. The board is stuck
+face-on at its center by a bullet
+with mass 2.2 g that is traveling at
+340 m/s and that remains
+embedded in the board. What
+minimum bullet speed would be
+required for the board to swing all
+the way over after impact? The
+gravitational acceleration is g = 9.8
+2
+m/s . (937.26 m/s)
+P144. A 450-g toy plane is flying
+horizontally at 1.75 m/s, when it
+hits a stationary vertical bar l = 20
+cm below the top. The bar is
+uniform, 0.75 m long, has a mass
+of 1.1 kg, and is hinged at its base.
+The toy plane drops to the ground
+after the collision. What is the
+angular velocity of the bar just
+after it is hit by the plane? (2.1
+rad/s)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 37 из 40
+--- PAGE 38 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+P145. A 620-g toy plane is flying
+horizontally at 2.25 m/s when it
+hits a stationary vertical bar l = 19
+cm below the top. The bar is
+uniform, 0.95 m long, has a mass
+of 1.5 kg, and is hinged at its base.
+What is the magnitude of the
+angular momentum of the plane
+about the hinge just before the
+collision? (1.0602 kg m^2/s)
+P146. A 650-g toy plane is flying
+horizontally at 2.25 m/s, when it
+hits a stationary vertical bar l = 24
+cm below the top. The bar is
+uniform, 0.9 m long, has a mass
+of 1.6 kg, and is hinged at its base.
+The toy plane drops to the ground
+after the collision. What is the
+angular velocity of the bar just as it
+reaches the ground? The
+gravitational acceleration is g =
+2
+9.8 m/s . (6.1367 rad/s)
+P147. A small block with mass
+0.45 kg is attached to a string
+passing through a hole in a
+frictionless, horizontal surface. The
+block is originally revolving in a
+circle with a radius of 0.75 m about
+the hole with a tangential speed of
+3.75 m/s. The string is then pulled
+slowly from below, shortening the
+radius of the circle in which the
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 38 из 40
+--- PAGE 39 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+block revolves. The breaking
+strength of the string is 32 N. What
+is the radius of the circle when the
+string breaks? (0.481 m)
+P148. A small block with mass
+0.55 kg is attached to a string
+passing through a hole in a
+frictionless, horizontal surface. The
+block is originally revolving in a
+circle of radius 0.75 m about the
+hole with a tangential speed of
+4.25 m/s. The string is then pulled
+slowly from below, shortening the
+radius of the circle. The breaking
+strength of the string is 34.5 N.
+What is the speed of the block
+when the string breaks? (5.84748
+m/s)
+P149. A stiff uniform wire of mass
+5.4 kg and length 1.75 m is cut,
+bent, and the parts soldered
+together so that it forms a circular
+wheel having four identical spokes
+coming out from the center to the
+rim. None of the wire is wasted,
+and you can neglect the mass of
+the solder. What is the radius of
+this wheel? (0.170181 m)
+P150. A wheel consists of a thin
+circular rim of mass 2.75 kg and
+radius 0.12 m, together with four
+identical uniform spokes, each of
+mass 0.5 kg, running from the
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 39 из 40
+--- PAGE 40 ---
+PHYS161_Exam2_new.docx 17.09.2026, 14:08
+center of the wheel to the rim.
+What is the moment of inertia of
+this wheel about an axle through
+its center, perpendicular to the
+plane of the wheel? (0.0492 kg
+m^2)
+https://docs.google.com/document/u/1/d/e/2PACX-1vTBWgnyN…6F2DfFsEvdmgXtLbK5cMZFYbH0gAHUiIX7VShe27ZV13_8GAzRQ/pub Страница 40 из 40

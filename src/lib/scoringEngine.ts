@@ -97,6 +97,7 @@ export function scoreExam(session: ExamSession, timeExpired: boolean): ExamResul
   const completedAt = session.submittedAt ?? Date.now()
   return {
     examId: session.examId,
+    examSet: session.examSet,
     seed: session.seed,
     completedAt,
     durationSec: Math.round((completedAt - session.startedAt) / 1000),
