@@ -131,7 +131,10 @@ export function PracticePage() {
       {variant && (
         <Card className="p-6 flex flex-col gap-5">
           <div className="flex items-center justify-between">
-            <span className="text-sm font-semibold text-navy-600">{TOPIC_LABELS[variant.topic]}</span>
+            <div className="flex items-center gap-2">
+              <span className="text-sm font-semibold text-navy-600">{TOPIC_LABELS[variant.topic]}</span>
+              <span className="font-mono text-xs text-navy-400">{variant.sourceRef}</span>
+            </div>
             <Button variant="ghost" size="sm" onClick={() => generate(true)}>
               <Shuffle className="size-4" /> New variant
             </Button>

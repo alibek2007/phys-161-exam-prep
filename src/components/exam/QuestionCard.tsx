@@ -29,6 +29,7 @@ export function QuestionCard({
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <Badge tone="navy">{TOPIC_LABELS[variant.topic]}</Badge>
+          <span className="font-mono text-xs text-navy-400">{variant.sourceRef}</span>
           <span className="text-sm text-navy-600">
             Question {index + 1} of {total}
           </span>

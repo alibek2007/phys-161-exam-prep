@@ -48,6 +48,7 @@ export function ReviewPage() {
             <div className="flex items-center justify-between flex-wrap gap-2">
               <div className="flex items-center gap-2">
                 <Badge tone="navy">{TOPIC_LABELS[q.topic]}</Badge>
+                <span className="font-mono text-xs text-navy-400">{q.sourceRef}</span>
                 <span className="text-sm font-semibold text-navy-600">Question {i + 1}</span>
               </div>
               {correct ? (
