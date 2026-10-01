@@ -4,6 +4,14 @@ import { useEffect, useRef, useState } from 'react'
 export function useExamTimer(deadline: number, onExpire: () => void): number {
   const [remaining, setRemaining] = useState(() => Math.max(0, deadline - Date.now()))
   const firedRef = useRef(false)
+  // Keep the latest onExpire in a ref so the interval (set up once per deadline) always
+  // calls the most recent closure — otherwise it fires against whatever session was
+  // current on the render that started the interval, dropping answers typed afterward.
+  const onExpireRef = useRef(onExpire)
+
+  useEffect(() => {
+    onExpireRef.current = onExpire
+  }, [onExpire])
 
   useEffect(() => {
     firedRef.current = false
@@ -12,13 +20,12 @@ export function useExamTimer(deadline: number, onExpire: () => void): number {
       setRemaining(ms)
       if (ms <= 0 && !firedRef.current) {
         firedRef.current = true
-        onExpire()
+        onExpireRef.current()
       }
     }
     tick()
     const id = setInterval(tick, 1000)
     return () => clearInterval(id)
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [deadline])
 
   return remaining
