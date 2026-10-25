@@ -2,9 +2,10 @@ import { useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { Star, Shuffle } from 'lucide-react'
 import type { Difficulty, ExamSet, QuestionVariant, Topic } from '../types/question'
-import { EXAM_SET_LABELS, TOPIC_EXAM_SET, TOPIC_LABELS } from '../types/question'
+import { EXAM_SETS, EXAM_SET_LABELS, TOPIC_EXAM_SET, TOPIC_LABELS } from '../types/question'
 import { QUESTIONS_BY_TOPIC } from '../lib/questionBank'
 import { mulberry32 } from '../lib/physics/random'
+import { fmtAnswerValue } from '../lib/format'
 import { Card } from '../components/ui/Card'
 import { Button } from '../components/ui/Button'
 import { AnswerInput } from '../components/exam/AnswerInput'
@@ -13,7 +14,6 @@ import { DiagramRenderer } from '../components/diagrams/DiagramRenderer'
 import { checkAnswer, type AnswerCheckResult } from '../lib/scoringEngine'
 
 const ALL_TOPICS = Object.keys(QUESTIONS_BY_TOPIC) as Topic[]
-const EXAM_SETS: ExamSet[] = ['exam1', 'exam2']
 
 function topicsFor(examSet: ExamSet): Topic[] {
   return ALL_TOPICS.filter((t) => TOPIC_EXAM_SET[t] === examSet)
@@ -21,7 +21,8 @@ function topicsFor(examSet: ExamSet): Topic[] {
 
 export function PracticePage() {
   const [searchParams] = useSearchParams()
-  const initialSet: ExamSet = searchParams.get('set') === 'exam2' ? 'exam2' : 'exam1'
+  const requestedSet = searchParams.get('set')
+  const initialSet: ExamSet = EXAM_SETS.find((s) => s === requestedSet) ?? 'exam1'
 
   const [examSet, setExamSet] = useState<ExamSet>(initialSet)
   const [topic, setTopic] = useState<Topic>(topicsFor(initialSet)[0])
@@ -168,7 +169,7 @@ export function PracticePage() {
               {checkResult === 'wrong_units' &&
                 `Your number is right, but the units are off — expected "${variant.answer.unit}".`}
               {(checkResult === 'wrong_value' || checkResult === 'unparseable') &&
-                `Not quite — correct answer is ${variant.answer.value.toPrecision(6).replace(/\.?0+$/, '')} ${variant.answer.unit}`}
+                `Not quite — correct answer is ${fmtAnswerValue(variant.answer.value)} ${variant.answer.unit}`}
             </p>
           )}
 

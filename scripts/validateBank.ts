@@ -1,4 +1,5 @@
 import { QUESTION_BANK } from '../src/lib/questionBank'
+import katex from 'katex'
 import { mulberry32, seedFromString } from '../src/lib/physics/random'
 
 let failures = 0
@@ -14,6 +15,16 @@ for (const q of QUESTION_BANK) {
       if (!Number.isFinite(variant.answer.value)) {
         console.error(`[NON-FINITE] ${q.id} (${q.sourceRef}) trial ${trial}`)
         failures++
+      }
+      for (const step of variant.solutionSteps) {
+        if (!step.math) continue
+        try {
+          katex.renderToString(step.math, { throwOnError: true })
+        } catch (e) {
+          console.error(`[KATEX] ${q.id} (${q.sourceRef}) step "${step.label}": ${(e as Error).message}`)
+          failures++
+          break
+        }
       }
       if (trial === 0) {
         console.log(`${q.id.padEnd(12)} ${q.sourceRef.padEnd(6)} answer=${variant.answer.value.toFixed(4)} ${variant.answer.unit}`)

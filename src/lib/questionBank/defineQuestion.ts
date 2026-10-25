@@ -6,6 +6,7 @@ import type {
   PhysicsQuestion,
   QuestionVariant,
   SolutionStep,
+  SourceCheck,
   Tolerance,
   Topic,
 } from '../../types/question'
@@ -25,6 +26,8 @@ export interface QuestionDef {
   compute: (p: GeneratedParams) => { value: number; unit: string; tolerance?: Tolerance }
   solution: (p: GeneratedParams, answer: number) => SolutionStep[]
   diagram?: (p: GeneratedParams) => DiagramSpec
+  /** The original exercise's printed numbers and answer, used by validate:source to catch transcription mistakes. */
+  source?: { params: GeneratedParams; answer: number; tolerance?: number }
 }
 
 const DEFAULT_TOLERANCE: Tolerance = { mode: 'relative', value: 0.015 }
@@ -39,6 +42,14 @@ export function defineQuestion(id: string, def: QuestionDef): PhysicsQuestion {
     difficulty: def.difficulty,
     type: 'numeric',
     randomizable: def.randomizable ?? true,
+    verifySource: def.source
+      ? (): SourceCheck => ({
+          expected: def.source!.answer,
+          actual: def.compute(def.source!.params).value,
+          tolerance: def.source!.tolerance ?? 0.005,
+          prompt: def.prompt(def.source!.params),
+        })
+      : undefined,
     generate(rng): QuestionVariant {
       for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
         const params: GeneratedParams = {}

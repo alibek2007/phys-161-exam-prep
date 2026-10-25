@@ -22,6 +22,10 @@ import { momentOfInertiaQuestions } from './topics2/momentOfInertia'
 import { rotationQuestions } from './topics2/rotation'
 import { torqueQuestions } from './topics2/torque'
 import { angularMomentumQuestions } from './topics2/angularMomentum'
+import { gravitationQuestions } from './topics3/gravitation'
+import { oscillationQuestions } from './topics3/oscillations'
+import { waveQuestions } from './topics3/waves'
+import { soundQuestions } from './topics3/sound'
 
 export const QUESTION_BANK: PhysicsQuestion[] = [
   ...unitsQuestions,
@@ -47,6 +51,10 @@ export const QUESTION_BANK: PhysicsQuestion[] = [
   ...rotationQuestions,
   ...torqueQuestions,
   ...angularMomentumQuestions,
+  ...gravitationQuestions,
+  ...oscillationQuestions,
+  ...waveQuestions,
+  ...soundQuestions,
 ]
 
 export const QUESTION_BY_ID: Map<string, PhysicsQuestion> = new Map(QUESTION_BANK.map((q) => [q.id, q]))

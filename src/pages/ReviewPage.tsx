@@ -9,6 +9,7 @@ import { Button } from '../components/ui/Button'
 import { SolutionSteps } from '../components/SolutionSteps'
 import { DiagramRenderer } from '../components/diagrams/DiagramRenderer'
 import { storage } from '../lib/storage'
+import { fmtAnswerValue } from '../lib/format'
 
 export function ReviewPage() {
   const location = useLocation()
@@ -77,7 +78,7 @@ export function ReviewPage() {
               <span className="text-navy-600">
                 Correct answer:{' '}
                 <span className="font-semibold text-navy-900">
-                  {q.answer.value.toPrecision(6).replace(/\.?0+$/, '')} {q.answer.unit}
+                  {fmtAnswerValue(q.answer.value)} {q.answer.unit}
                 </span>
               </span>
             </div>

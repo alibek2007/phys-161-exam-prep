@@ -1,13 +1,17 @@
-export type ExamSet = 'exam1' | 'exam2'
+export type ExamSet = 'exam1' | 'exam2' | 'exam3'
+
+export const EXAM_SETS: ExamSet[] = ['exam1', 'exam2', 'exam3']
 
 export const EXAM_SET_LABELS: Record<ExamSet, string> = {
   exam1: 'Exam 1',
   exam2: 'Exam 2',
+  exam3: 'Exam 3',
 }
 
 export const EXAM_SET_TAGLINES: Record<ExamSet, string> = {
   exam1: 'Units, vectors, kinematics, circular motion & Newton’s laws',
   exam2: 'Work, energy, momentum, rotation, torque & angular momentum',
+  exam3: 'Gravitation, oscillations, waves & sound',
 }
 
 export type Exam1Topic =
@@ -37,7 +41,25 @@ export type Exam2Topic =
   | 'torque'
   | 'angularMomentum'
 
-export type Topic = Exam1Topic | Exam2Topic
+export type Exam3Topic =
+  | 'gravityField'
+  | 'gravitationalForce'
+  | 'orbits'
+  | 'escapeEnergy'
+  | 'pendulum'
+  | 'shm'
+  | 'springMass'
+  | 'dampedDriven'
+  | 'interference'
+  | 'waveBasics'
+  | 'stringWaves'
+  | 'standingWaves'
+  | 'doppler'
+  | 'soundIntensity'
+  | 'organPipes'
+  | 'beatsMedia'
+
+export type Topic = Exam1Topic | Exam2Topic | Exam3Topic
 
 export const TOPIC_LABELS: Record<Topic, string> = {
   units: 'Units & Conversions',
@@ -63,6 +85,22 @@ export const TOPIC_LABELS: Record<Topic, string> = {
   rotation: 'Rotation',
   torque: 'Torque',
   angularMomentum: 'Angular Momentum',
+  gravityField: 'Gravitational Field & Weight',
+  gravitationalForce: 'Gravitational Force',
+  orbits: 'Orbits & Kepler',
+  escapeEnergy: 'Gravitational Energy & Escape',
+  pendulum: 'Pendulums',
+  shm: 'Simple Harmonic Motion',
+  springMass: 'Springs & Oscillating Masses',
+  dampedDriven: 'Damped & Driven Oscillations',
+  interference: 'Interference',
+  waveBasics: 'Wave Speed & Power',
+  stringWaves: 'Waves on Strings',
+  standingWaves: 'Standing Waves',
+  doppler: 'Doppler Effect & Shock Waves',
+  soundIntensity: 'Sound Intensity',
+  organPipes: 'Organ Pipes',
+  beatsMedia: 'Beats & Sound in Media',
 }
 
 export const TOPIC_EXAM_SET: Record<Topic, ExamSet> = {
@@ -89,6 +127,22 @@ export const TOPIC_EXAM_SET: Record<Topic, ExamSet> = {
   rotation: 'exam2',
   torque: 'exam2',
   angularMomentum: 'exam2',
+  gravityField: 'exam3',
+  gravitationalForce: 'exam3',
+  orbits: 'exam3',
+  escapeEnergy: 'exam3',
+  pendulum: 'exam3',
+  shm: 'exam3',
+  springMass: 'exam3',
+  dampedDriven: 'exam3',
+  interference: 'exam3',
+  waveBasics: 'exam3',
+  stringWaves: 'exam3',
+  standingWaves: 'exam3',
+  doppler: 'exam3',
+  soundIntensity: 'exam3',
+  organPipes: 'exam3',
+  beatsMedia: 'exam3',
 }
 
 export type Difficulty = 1 | 2 | 3
@@ -153,4 +207,15 @@ export interface PhysicsQuestion {
   randomizable: boolean
   /** Generate a validated variant using the given seeded RNG. */
   generate: (rng: () => number) => QuestionVariant
+  /** Recomputes the original problem-set exercise from its printed numbers, for validation against the printed answer. */
+  verifySource?: () => SourceCheck
+}
+
+export interface SourceCheck {
+  expected: number
+  actual: number
+  /** Allowed relative error (printed answers are usually rounded). */
+  tolerance: number
+  /** The prompt this template produces for the original numbers. */
+  prompt: string
 }

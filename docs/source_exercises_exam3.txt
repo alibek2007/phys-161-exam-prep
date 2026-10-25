@@ -1,0 +1,945 @@
+10/25/26, 2:00 PM
+Published using Google Docs
+PHYS161_Exam3_new.docx
+
+PHYS161_Exam3_new.docx
+Report abuse
+
+Learn more
+
+Updated automatically every 5 minutes
+
+Exam 3
+Gravitation
+P1. At what altitude above the Earth's surface would the gravitational acceleration be 6.2 m/s2? The radius of Earth is 6.371 × 106 m. The gravitational acceleration on Earth is g = 9.8 m/s2. (1638.858 km)
+P2. At what altitude above the Earth's surface would the gravitational acceleration be 0.6 of its value at the surface? The radius of the Earth is 6.33×10⁶ m. (1.84199e+06 m)
+P3. What is the value of gravitational acceleration g 720 km above Earth’s surface? The radius of Earth is 6.371 × 106 m. The gravitational acceleration on Earth is g = 9.8 m/s2. (7.911 m/s^2)
+P4. In a Star Wars movie the rebel space station is built as circular ring of 45 m in diameter. At what angular speed should it be rotated so the occupants feel that they have the 75% of the weight they feel on Earth? The gravitational acceleration on Earth is g = 9.8 m/s2. (0.572 rad/s)
+P5. In a Star Wars movie the rebel space station is built as a circular ring of 39 m in diameter. At what linear speed should its rim move so that the occupants feel 85% of the weight they feel on Earth? The gravitational acceleration on Earth is g = 9.8 m/s². (12.745 m/s)
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+1/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+P6. Escape velocity of a bullet fired
+
+Published using Google Duopcfsrom the surface of planet X is Report abuse
+1481 m/s. Find the escape velocity
+
+Learn more
+
+from the surface of another planet Y,
+
+if the mass of planet Y is 1.41 times Updated automatically every 5
+
+PHYS161_Exam3_new.docx that of X, and its radius is 0.718
+
+minutes
+
+times the radius of planet X. (2075.4
+
+m/s)
+
+P7. Planet Y has a mass 1.78 times that of planet X, and its radius is 0.93 times the radius of planet X. By what factor is the gravitational acceleration at the surface of planet Y larger than that at the surface of planet X? (2.05804)
+
+P8. Figure shows five equal masses M = 3 kg equally spaced on the arc of a semicircle of radius 3.9 m. A mass m = 1 kg is placed at the center of curvature of the arc. What is the magnitude of the force on mass m due to the other five masses? Gravitational constant G=6.67×10−11 N m2/kg2. (3.1761E11 N)
+
+P9. Spherical hollow is made in a lead sphere of radius R = 12.4 cm such that its surface touches the outside surface of a lead sphere and passes through its center as shown in the figure below. The mass of the sphere before hollowing was M = 24.8 kg. Find the magnitude of the gravitational force between the hollowed-out lead sphere and a small sphere of mass m = 2.4 kg, located at distance d = 0.75 m from the center of the lead sphere. Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (6.305E-9 N)
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+2/28
+
+10/25/26, 2:00 PM
+Published using Google Docs
+PHYS161_Exam3_new.docx
+
+PHYS161_Exam3_new.docx
+Report abuse
+
+Learn more
+
+Updated automatically every 5 minutes
+
+P10. Two spherical masses are located on the x-axis, the first at the origin with M1=11.2 kg, and the second M2=42 kg at position x=48.1 m. The third sphere with M3=19.8 kg is placed on x-axis such that M3 experiences no net gravitational force due to M1 and M2. Calculate the position of M3. (16.38 m)
+P11. The period of the circular orbit of a satellite very close to the surface of a spherical planet is 2.65 hours. Find the density of the planet assuming it is uniform. Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (1552.56 kg/m^3)
+P12. A satellite orbits very close to the surface of a spherical planet of uniform density 4400 kg/m³. Find the period of its circular orbit. Gravitational constant is G = 6.67×10⁻¹¹ N m²/kg². (5666.91 s)
+P13. How much energy is required to lift the 8000 kg space vehicle from Earth’s surface to the height of the 380 km above the surface? Neglect the rotation of the Earth. The radius of Earth is 6.371 × 106 m. The mass of the Earth is 5.972 × 1024 kg. Gravitational constant is 6.6743 × 10−11N⋅ m2 /kg2. (28172370630.036 J)
+P14. With what speed must an object be launched from the Earth's surface so that it just reaches an altitude of 400 km? Neglect air resistance and the rotation of the Earth. The radius of the Earth is 6.371×10⁶ m and its mass is 5.972×10²⁴ kg. Gravitational
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+3/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+constant is G = 6.67×10⁻¹¹ N m²/kg².
+
+Published using Google D(2o7c1s7.93 m/s)
+
+Report abuse
+
+Learn more
+
+PHYS161_Exam3_new.docx
+
+P15. Calculate the initial speed of the object of mass 3 kg launched from the Earth’s surface and reaching the speed of 13800 m/s at a very far distance from the Earth. Neglect atmospheric friction and the rotation of the Earth. The Earth’s radius and mass are 6371 km and 5.97× 1024 kg, respectively. Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (17760.73 m/s)
+
+Updated automatically every 5 minutes
+
+P16. An object is projected straight up from the surface of the Earth with an initial speed of 8500 m/s. Neglecting air resistance and the rotation of the Earth, find the maximum height above the surface that it reaches. The radius of the Earth is 6.371×10⁶ m and its mass is 5.97×10²⁴ kg. Gravitational constant is G = 6.67×10⁻¹¹ N m²/kg². (8.72556e+06 m)
+
+P17. Three identical stars of mass 5.27×1024 kg are located at the vertices of an equilateral triangle with side 6930 km. At what speed must they move if they all revolve under the influence of one another's gravitational force in a circular orbit circumscribing the triangle while still preserving the equilateral triangle? Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (7121.99 m/s)
+
+P18. Initial speed of an object projected away from the surface of Earth is 1.9×10^4 m/s. Find the object's speed when it is very far from the Earth. Neglect atmospheric friction and the rotation of the Earth. The Earth’s radius and mass are 6371 km and 5.97× 1024 kg, respectively. Gravitational
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+4/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+constant is 6.67 × 10−11N⋅ m2 /kg2.
+
+Published using Google D(1o5c3s66.47 m/s)
+
+Report abuse
+
+Learn more
+
+P19. Calculate the weight of a 50.3kg person on the Moon where the
+PHYS161_Exam3_new.docx gravitational acceleration is one-
+sixth that of the Earth. The gravitational acceleration on Earth is g = 9.8 m/s2. (82.157 N)
+
+Updated automatically every 5 minutes
+
+P20. A person weighs 115 N on the Moon, where the gravitational acceleration is one-sixth that of the Earth. What is the mass of this person? The gravitational acceleration on Earth is g = 9.8 m/s². (70.4082 kg)
+
+P21. Calculate the force of gravity of a 16 kg block resting on the earth. Mass of Earth is ME = 5.97 × 1024 kg. The radius of the Earth is RE = 6.38 × 106 m. Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (156.5 N)
+
+P22. Assume that the satellite orbits a planet in a circular orbit. From the observed orbital period of 28.4 days, calculate the distance of the satellite from the center of the planet. Assume that the satellite's motion is determined solely by the gravitational force exerted on it by the planet, and the mass of the planet is m = 4 × 1024 kg. Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (343951138.39 m)
+
+P23. A satellite orbits a planet of mass 3×10²⁴ kg in a circular orbit of radius 3.7×10^8 m. Calculate the orbital period of the satellite. Gravitational constant is G = 6.67×10⁻¹¹ N m²/kg². (3.16125e+06 s)
+
+P24. What is the escape speed from a 260-km-diameter asteroid with a density of 2700 kg/m3? Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (159.68 m/s)
+
+P25. What is the gravitational acceleration at the surface of a 155km-diameter asteroid with a density of 2650 kg/m³? Gravitational constant is G = 6.67×10⁻¹¹ N m²/kg². (0.0573802 m/s^2)
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+5/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+P26. Comets travel around the sun
+
+Published using Google Dinocitss elliptical orbits with large
+
+Report abuse
+
+eccentricities. If a comet has speed
+
+Learn more
+
+2.4 × 104 m/s when at a distance of
+
+PHYS161_Exam3_new.docx 2.7 × 1011 m from the center of the Updated automatically every 5 sun, what is its speed when at a minutes
+
+distance of 5.1 × 1010 m?
+
+Gravitational constant is 6.67 ×
+
+10−11N⋅ m2 / kg2. Mass of the sun
+
+is 1.989 × 1030 kg. (69252.98 m/s)
+
+P27. A comet travels around the Sun in a highly eccentric elliptical orbit. It has a speed of 2.2×10⁴ m/s when it is at a distance of 2.35×10¹¹ m from the center of the Sun. At what distance from the center of the Sun is its speed 6.1×10⁴ m/s? Gravitational constant is G = 6.67×10⁻¹¹ N m²/kg². The mass of the Sun is 1.989×10³⁰ kg. (6.07714e+10 m)
+
+P28. Two identical stars with mass 1 × 1030 kg orbit around their center of mass. Each orbit is circular and has a radius of 8 × 107 km, so that the two stars are always on opposite sides of the circle. Find the gravitational force of one star on the other. Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (2.6055E+27 N)
+
+P29. Two identical stars with mass 1x10^30 kg orbit around their center of mass. Each orbit is circular and has a radius of 5 × 107 km, so that the two stars are always on opposite
+sides of the circle. Find the orbital speed of each star. Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (18261.98 m/s)
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+6/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+P30. Two identical stars with mass 2
+
+Published using Google Docs30
+
+Report abuse
+
+× 10 kg orbit around their center
+
+Learn more
+
+of mass. Each orbit is circular and
+
+PHYS161_Exam3_new.docx the two stars are always on opposite minutes has a radius of 8 × 107 km, so that Updated automatically every 5
+
+sides of the circle. Find the period
+
+of the orbit. Gravitational constant is
+
+6.67 × 10−11N⋅ m2 /kg2.
+
+(24618802.81 s)
+
+P31. Two identical stars with mass 2 × 1030 kg orbit around their center of mass. Each orbit is circular and has a radius of 5 × 107 km, so that the two stars are always on opposite sides of the circle. How much energy would be required to separate the two stars to infinity? Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (1.334E+39 J)
+
+P32. In deep space, two uniform spheres, one of mass 24 kg and the other with mass 107 kg, are released from rest with their centers 40 m apart. They accelerate toward each other because of their mutual gravitational attraction. Find the speed of the sphere with mass 24 kg, when their centers are 25 m apart. Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (1.32285E-5 m/s)
+P33. In deep space, two uniform spheres, one of mass 29 kg and the other of mass 112 kg, are released from rest with their centers 43 m apart. They accelerate toward each other because of their mutual gravitational attraction. Find the speed at which they approach each other when their centers are 26.5 m
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+7/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+apart. Gravitational constant is G =
+Published using Google D6o.6c7s×10⁻¹¹ N m²/kg². (1.65034e-05 Report abuse
+m/s)
+
+Learn more
+
+PHYS161_Exam3_new.docx
+
+P34. In deep space, two uniform spheres, one of mass 25 kg and the other with mass 110 kg, are released from rest with their centers 38 m apart. They accelerate toward each other because of their mutual gravitational attraction. Find the magnitude of the relative velocity with which one sphere is approaching the other, when their centers are 20 m apart. Gravitational constant is 6.67 × 10−11N⋅ m2 /kg2. (2.065E-5 m/s)
+
+Updated automatically every 5 minutes
+
+P35. In deep space, two uniform spheres, one of mass 20 kg and the other with mass 105 kg, of equal radii r = 0.15 m, are released from rest with their centers 45 m apart. They accelerate toward each other because of their mutual gravitational attraction. How far from the initial position of the center of the 20 kg sphere do the surfaces of the two spheres collide? (37.698 m)
+
+P36. The space station makes 15.45 revolutions per day in its orbit around the earth. Assuming a circular orbit, how high is this satellite above the surface of the earth? The radius of Earth is 6.371×106 m. Mass of Earth is 5.972×1024 kg. The gravitational constant is 6.6743 × 10−11N⋅ m2 /kg2. (438451.032 m)
+
+Oscillations
+
+P37. A 54 cm simple pendulum makes 30 complete swings in 54 seconds on an unknown planet. What is the gravitational acceleration of the planet? (6.5797 m/s^2)
+
+P38. A simple pendulum makes 28 complete swings in 58.5 seconds at a place where the gravitational acceleration is 11.3 m/s². What is the length of the pendulum? (1.24944 m)
+
+P39. A spring is mounted horizontally, with its left end fixed. A spring balance attached to the free
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+8/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+end and pulled toward the right
+
+Published using Google Dinodcicsates that the stretching force is Report abuse
+proportional to the displacement,
+
+Learn more
+
+and a force of 6 N causes a
+
+displacement of 0.05 m. We replace Updated automatically every 5
+PHYS161_Exam3_new.docx the spring balance with a 0.6 kg minutes
+block, pull it 0.01 m to the right along
+
+a frictionless surface, and release it
+
+from rest. Find the period of the
+
+resulting oscillation. (0.444 s)
+
+P40. A spring is mounted horizontally, with its left end fixed. A block of mass m = 0.3 kg is attached to the free end, pulled toward the right and released from rest at x = 0.02 m. Force constant of the spring is k = 152 N/m. Find the maximum velocity attained by the oscillating block. (0.4502 m/s)
+
+P41. A mass M is suspended from a spring and oscillates with a period of 0.753 s. Each complete oscillation results in an amplitude reduction of a factor of 0.961 due to a small velocity dependent frictional effect. Calculate the time it takes for the total energy of the oscillator to decrease to 46% of its initial value. (7.349 s)
+P42. A mass is suspended from a spring and oscillates with a period of 0.7 s. Each complete oscillation reduces the amplitude by a factor of 0.94 because of a small velocitydependent frictional effect. How many complete oscillations does it take for the total energy of the oscillator to decrease to 0.39 of its initial value? (7.60891)
+P43. Four passengers with combined mass 260 kg compress the springs of a car by 5 cm when they enter it. If the loaded car has a period of vibration of 1 s, what is the mass of the car? Ignore damping.
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+9/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+The gravitational acceleration is g =
+
+Published using Google D9o.8csm/s2. (1030.83 kg)
+
+Report abuse
+
+Learn more
+
+PHYS161_Exam3_new.docx
+
+P44. A body oscillates in a simple harmonic motion with its position described by the following formula: x=Acos(ωt+φ), where A=8.2, ω=1.127, and φ=0.288. Assume all quantities are given in SI units. Calculate the period of oscillations. (5.575 s)
+
+Updated automatically every 5 minutes
+
+P45. A body oscillates in a simple harmonic motion with its position described by the following formula: x=Acos(ωt+φ), where A=8.1, ω=1.379, and φ=0.337. Assume all quantities are given in SI units. Assuming the oscillations are governed by Hooke's law and the body's mass is 790 g, calculate the total energy of the oscillator. (49.28 J)
+
+P46. A light vertically mounted helical spring is stretched by 6.9 cm by a mass of 171 g hang at spring's end. This mass is then replaced with a new 476 g bob that is set into simple harmonic motion. Calculate its period. The gravitational acceleration is g = 9.8 m/s2. (0.8796 s)
+
+P47. A light vertically mounted helical spring is stretched by 4.9 cm when a mass of 165 g hangs at the spring's end. What is the force constant of the spring? The gravitational acceleration on Earth is g = 9.8 m/s². (33 N/m)
+
+P48. Circus performer of mass 77 kg oscillates up and down at the end of a long elastic rope at a rate of once every 5.5 s. The elastic rope obeys Hooke's Law. By how much is the rope extended beyond its unloaded length when the performer hangs at rest? The gravitational acceleration is g = 9.8 m/s2. (7.5091662226928 m)
+
+P49. A circus performer of mass 88.5 kg oscillates up and down at the end of a long elastic rope at a rate of once every 6.85 s. The elastic rope obeys Hooke's law. What is the force constant of the rope? The gravitational acceleration
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+10/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+on Earth is g = 9.8 m/s². (74.4598
+
+Published using Google DNo/mcs)
+
+Report abuse
+
+Learn more
+
+PHYS161_Exam3_new.docx
+
+P50. When a person with a mass of 62 kg steps into a car of mass 1600 kg, the car sinks by 7 cm. Assuming no damping, what is the frequency of vibration of the car and passenger on the car springs? The gravitational acceleration is g = 9.8 m/s2. (0.3637 Hz)
+
+Updated automatically every 5 minutes
+
+P51. When a person steps into a car of mass 1770 kg, the car sinks by 5.4 cm on its springs. Assuming no damping, the car and passenger then vibrate at 0.41 Hz. What is the mass of the person? The gravitational acceleration on Earth is g = 9.8 m/s². (67.1811 kg)
+
+P52. The tip of one half of a tuning fork vibrates approximately as if it were in a simple harmonic motion with amplitude of 0.57 mm. If the tip passes its equilibrium position with a speed of 1.538 m/s, what is the frequency of vibration? (429.439 Hz)
+
+P53. The tip of one half of a tuning fork vibrates approximately in simple harmonic motion with an amplitude of 0.71 mm. The tip passes its equilibrium position with a speed of 1.45 m/s. What is the magnitude of its maximum acceleration? (2961.27 m/s^2)
+P54. A spring with spring constant k=140 N/m is connected to a pair of blocks with masses M1=0.7 kg and M2=7.9 kg on a horizontal, frictionless surface, as shown in the Figure. The coefficient of static friction between the two blocks is 0.9. What is the maximum possible amplitude of the simple harmonic motion if no slippage is to occur between the blocks? The gravitational acceleration is g = 9.8 m/s2. (0.5418 m)
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+11/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+P55. Vibrational platform oscillates
+
+Published using Google Duopcasnd down at a controlled variableReport abuse
+frequency with amplitude 11.4 cm.
+
+Learn more
+
+Suppose a small rock of unknown
+
+mass is placed on the platform. At
+PHYS161_Exam3_new.docx what frequency will the rock just
+begin to leave the surface so that it
+
+Updated automatically every 5 minutes
+
+starts to clatter? The gravitational
+
+acceleration is g = 9.8 m/s2 (1.4756
+
+Hz)
+
+P56. Find the frequency of a simple pendulum 53 cm long at a location where g = 9.47 m/s2. (0.673 Hz)
+
+P57. A body is sliding back and forth in a simple harmonic motion with an amplitude of 0.1 m on a horizontal surface. At a point 0.03 m away from equilibrium, the speed of the body is 0.4 m/s. What is the period? (1.498 s)
+
+P58. A body slides back and forth in simple harmonic motion with an amplitude of 0.12 m on a horizontal surface. At a point 0.04 m away from equilibrium, the speed of the body is 0.29 m/s. What is the maximum speed of the body? (0.307591 m/s)
+
+P59. A body is sliding back and forth in a simple harmonic motion with an amplitude of 0.2 m on a horizontal surface. At a point 0.02 m away from equilibrium, the speed of the body is 0.4 m/s. What is the displacement when the speed is 0.12 m/s? (0.191 m)
+
+P60. A plate is sliding back and forth in a simple harmonic motion with an amplitude of 0.1 m on a horizontal surface. At a point 0.06 m away from equilibrium, the speed of the plate is 0.3 m/s. In the center of the plate is a carrot slice. If the carrot slice is just on the verge of slipping at the endpoint of the path, what is the coefficient of static friction between the carrot slice and the plate? The gravitational acceleration is g = 9.8 m/s2. (0.1435)
+
+P61. On an unknown planet, a simple pendulum having a bob with mass 1.05 kg and a length of 145 cm takes 1.55 s, when released from rest, to swing through an angle
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+12/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+of 12.5￮, where it again has zero
+
+Published using Google Dsopceesd. The radius of the planet is Report abuse
+
+Learn more
+
+measured to be 8600 km. What is
+
+the mass of the planet? Gravitational
+
+constant is
+
+PHYS161_Exam3_new.docx
+
+−11 3 2
+
+G=6.67×10 m /(kg⋅s ).
+
+Updated automatically every 5 minutes
+
+(6.605E+24 kg)
+
+P62. A rocket is accelerating upward at 4.6 m/s2 from the launchpad on the earth. Inside a small 1.8 kg ball hangs from the ceiling by a light 1.2 m wire. If the ball is displaced from the vertical and released, find the period of the resulting swings of this pendulum. The gravitational acceleration is g = 9.8 m/s2. (1.8138 s)
+
+P63. A 12-kg mass is traveling to the right with a speed of 1.6 m/s on a smooth horizontal surface when it collides with and sticks to a second 12-kg mass that is initially at rest but is attached to a light spring with force constant 88 N/m. Find the amplitude of the subsequent oscillations. (0.41779 m)
+
+P64. A 13-kg mass travels to the right at 2.1 m/s on a smooth horizontal surface when it collides with and sticks to a second 13-kg mass that is initially at rest but attached to a light spring of force constant 93 N/m. Find the total energy of the subsequent oscillations. (14.3325 J)
+
+P65. A 16-kg mass is traveling to the right with a speed of 2.7 m/s on a smooth horizontal surface when it collides with and sticks to a second 16-kg mass that is initially at rest but is attached to a light spring with force constant 87 N/m. Find the period of the subsequent oscillations. (3.8106 s)
+
+P66. A 10-kg mass is traveling to the right with a speed of 1.6 m/s on a smooth horizontal surface when it collides with and sticks to a second 10-kg mass that is initially at rest but is attached to a light spring with force constant 85 N/m. Find frequency of the subsequent oscillations. (0.3281 Hz)
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+13/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+P67. A 2-kg bucket containing 9.5
+
+Published using Google Dkogcosf water is hanging from a verticaRl eport abuse
+ideal spring of force constant 120
+
+Learn more
+
+N/m and oscillating up and down
+
+with an amplitude of 3.5 cm.
+PHYS161_Exam3_new.docx Suddenly the bucket springs a leak
+in the bottom such that water drops
+
+Updated automatically every 5 minutes
+
+out at a steady rate of 1.8 g/s. When
+
+the bucket is half full, find the period
+
+of oscillation. (1.4902 s)
+
+P68. A 2.3-kg bucket containing 10.4 kg of water hangs from a vertical ideal spring of force constant 125 N/m and oscillates up and down. The bucket springs a leak in the bottom and water drops out at a steady rate of 2.25 g/s. How long does it take until the bucket is half full? (2311.11 s)
+
+P69. A 2.2-kg bucket containing 10.8 kg of water is hanging from a vertical ideal spring of force constant 128 N/m and oscillating up and down with an amplitude of 2.5 cm. Suddenly the bucket springs a leak in the bottom such that water drops out at a steady rate of 2.2 g/s. When the bucket is half full, find the magnitude of rate at which the period is changing with respect to time. (0.0002216)
+
+P70. A hanging wire is 1.8 m long. When a 64-kg steel ball is suspended from the wire, the wire stretches by 2.2 mm. If the ball is pulled down a small additional distance and released, at what frequency will it vibrate? The gravitational acceleration is g = 9.8 m/s2. (10.622 Hz)
+
+P71. A hanging wire stretches by 2.45 mm when a 52-kg steel ball is suspended from it. The ball is removed and a 24-kg ball is hung from the same wire instead. If this ball is pulled down a small additional distance and released, at what frequency will it vibrate? The gravitational acceleration on Earth is g = 9.8 m/s². (14.8165 Hz)
+
+P72. A pendulum with a length of 1 m released from an initial angle of
+13˚. After 970 s, its amplitude has been reduced by friction to 3.4˚.
+
+What is the value of the ? (0.00138 s^-1)
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+14/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+P73. A 10.6-kg object oscillates at
+
+Published using Google Dthoecsend of a vertical spring that has Report abuse
+
+Learn more
+
+a spring constant of 2.05 × 104 N/m.
+
+The effect of air resistance is
+PHYS161_Exam3_new.docx represented by the damping
+coefficient b = 3 N ⋅
+
+Updated automatically every 5 minutes
+
+s/m. Calculate the frequency of the
+
+damped oscillation. (6.998 Hz)
+
+P74. A 9.7-kg object oscillates at the end of a vertical spring that has a spring constant of 3.05×10⁴ N/m. The effect of air resistance is represented by the damping coefficient b = 3.7 N·s/m. After what time does the amplitude of the oscillation fall to 1/e of its initial value? (5.24324 s)
+
+P75. A block weighing 42 N is suspended from a spring that has a force constant of 200 N/m. The system is undamped (b = 0) and is subjected to a harmonic driving force of frequency 9 Hz, resulting in a forced-motion amplitude of 1.8 cm. Determine the maximum value of the driving force. The gravitational acceleration is g = 9.8 m/s2. (243.08 N)
+
+P76. A block weighing 47 N is suspended from a spring that has a force constant of 225 N/m. The system is undamped and is subjected to a harmonic driving force of frequency 9.5 Hz, resulting in oscillations of amplitude 1.75 cm. What is the natural frequency of this spring-block system? The gravitational acceleration on Earth is g = 9.8 m/s². (1.09012 Hz)
+
+P77. Damping is negligible for a 0.15-kg object hanging from a light, 5.8-N/m spring. A sinusoidal force with an amplitude of 1.7 N drives the system. At what frequency will the force make the object vibrate with an amplitude of 0.25 m? Assume (w2 w02) > 0 (1.459 Hz)
+
+P78. A 11.8-kg object oscillates at the end of a vertical spring that has a spring constant of 3.2 × 104 N/m. The effect of air resistance is represented by the damping coefficient b = 3.6 N ⋅ s/m. By what percentage does the amplitude of
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+15/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+the oscillation decrease in each
+Published using Google Dcoycclse? (1.8237 %)
+
+Report abuse
+
+Learn more
+
+Waves
+PHYS161_Exam3_new.docx
+P79. Two megaphones at distance x = 4.99 m to each other are driven in phase by the same amplifier. A listener is located directly in front of one of the megaphones at point A at distance L = 3.55 m. The speed of sound can be taken as 348.7 m/s. What is the lowest frequency at which constructive interference occurs? (135.47 Hz)
+
+Updated automatically every 5 minutes
+
+P80. Two megaphones a distance x = 5.66 m apart are driven in phase by the same amplifier. A listener stands directly in front of one of the megaphones at point A, a distance L = 3.61 m from it. By how much do the path lengths from the two megaphones to the listener differ? (3.10325 m)
+
+P81. Two megaphones at distance x = 4.74 m to each other are driven in phase by the same amplifier. A listener is located directly in front of one of the megaphones at point A at distance L = 3.41 m. The speed of sound can be taken as 347.9 m/s. What is the second-lowest frequency at which constructive interference occurs? (286.437 Hz)
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+16/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+P82. Two megaphones at distance x
+
+Published using Google D=oc4s.8 m to each other are driven in Report abuse
+phase by the same amplifier. A
+
+Learn more
+
+listener is located directly in front of
+
+one of the megaphones at point A at Updated automatically every 5
+PHYS161_Exam3_new.docx distance L = 3.05 m. The speed of minutes
+sound can be taken as 342 m/s.
+
+What is the lowest frequency for
+
+which there is a minimum signal due
+
+to destructive interference? (64.845
+
+Hz)
+
+P83. Two megaphones at distance x = 6.17 m to each other are driven in phase by the same amplifier. A listener is located directly in front of one of the megaphones at point A at distance L = 3.95 m. The speed of sound can be taken as 349.8 m/s. What is the second-lowest frequency for which there is a minimum signal? (155.417 Hz)
+
+P84. Calculate the wavelength of a sea animal’s echolocation wave, if the frequencies of echolocation wave is 105000 Hz. Density of the sea water is 1.025×103 kg/m3. Bulk modulus of water Bw = 2.0×109 N/m2. (0.0133 m)
+
+P85. Calculate the speed of a longitudinal wave in sea water. The density of the sea water is 1.025×10³ kg/m³ and the bulk modulus of water is 1.95×10^9 N/m². (1379.29 m/s)
+
+P86. An animal emits an echolocation wave. If an obstacle is 100 m from the animal, how long does it take for the echolocation wave to make a round trip between the animal and the object? Density of the sea water is 1.025×103 kg/m3. Bulk modulus of water Bw = 2.0×109 N/m2. (0.143178 s)
+
+P87. A nylon string is stretched between two rigid columns such that the tension in it is 175 N. The string is of length L = 2 m and has the cross-sectional area that varies with distance as A(x) = (1+x/L)*10^(-6), where A is in meters squared and x is in meters. Determine the time it takes for a transverse pulse in the string to travel from one end to the
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+17/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+other. The density of nylon is 1.1
+Published using Google Dgo/ccms^3. (0.006112 s)
+
+Report abuse
+
+Learn more
+
+P88. Calculate the time required to travel the distance 620 m by a wave
+PHYS161_Exam3_new.docx with wavelength 0.755 m and
+frequency 425 Hz. (1.9322 s)
+
+Updated automatically every 5 minutes
+
+P89. A wave of wavelength 0.925 m and frequency 450 Hz travels along a long string. How many complete wavelengths fit into a distance of 596 m? (644.324)
+
+P90. Calculate the speed of transverse waves on a steel piano wire of length 1.7 m and mass 4.3 g that is stretched under a tension of 648 N? (506.148 m/s)
+
+P91. Calculate the time taken by a transverse pulse to travel the length of a steel piano wire of length 1.6 m and mass 4.85 g that is stretched under a tension of 685 N. (0.00336578 s)
+
+P92. The tension in a thin cable of length 3.2 m and mass 0.6 kg, stretched between two poles, is T = 275 N. Due to the wind in the air the cable is vibrating and produces a standing wave at 2 times its fundamental frequency. What is the frequency of the hum that is produced? (11.9678 Hz)
+
+P93. A thin cable of length 3.25 m and mass 0.52 kg is stretched between two poles under a tension of 310 N. The wind makes it vibrate at 3 times its fundamental frequency. What is the wavelength of the standing wave on the cable? (2.16667 m)
+
+P94. A string on a certain guitar of the length of 52 cm vibrates at a fundamental frequency of 262 Hz. Calculate the speed of the transverse waves on the string. (272.48 m/s)
+
+P95. A string on a guitar of length 56 cm vibrates at a fundamental frequency of 270 Hz. Without changing the tension, the vibrating length is shortened to 34 cm. What fundamental frequency does the string now produce? (444.706 Hz)
+
+P96. A string on a certain guitar of the length of 54 cm vibrates at a
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+18/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+fundamental frequency of 250 Hz.
+Published using Google DSoucpspose the linear mass density of
+the guitar is 1.37 g/m. Find the tension required to tune the string. (99.873 N)
+PHYS161_Exam3_new.docx
+P97. A transverse wave, traveling along a string of length 8.45 m and mass 1.8 kg, moves by 14.7 m during a time interval of 1.45 s. Calculate the tension in the string. (21.89 N)
+
+Report abuse
+
+Learn more
+
+Updated automatically every 5 minutes
+
+P98. A transverse harmonic wave with an amplitude of 2 mm and wavelength of 1.65 m travels from left to right along a long, horizontal, stretched string with a speed of 29 m/s. Take the origin at the left end of the undisturbed string. At time t = 0 s the left end of the string has its maximum upward displacement. Find the magnitude of transverse displacement of a particle 1.4 m to the right of the origin at time t = 0.0595 s. (0.0006505 m)
+P99. A transverse harmonic wave with an amplitude of 1.25 mm and a wavelength of 1.72 m travels from left to right along a long, horizontal, stretched string with a speed of 31 m/s. What is the maximum transverse acceleration of a particle of the string? (16.0301 m/s^2)
+P100. A transverse harmonic wave with an amplitude of 1.5 mm and wavelength of 1.85 m travels from left to right along a long, horizontal, stretched string with a speed of 38 m/s. Take the origin at the left end of the undisturbed string. At time t = 0 s the left end of the string has its maximum upward displacement. Find the magnitude of the transverse velocity of a particle 1.75 m to the right of the origin at time t = 0.0425 s. (0.08568 m/s)
+P101. One string of a certain musical instrument is 55 cm long and has a mass of 8.5 g. It is being played in a room where the speed of sound is 344 m/s. To what tension must you adjust the string so that, when vibrating in its second overtone, it produces sound of wavelength 3.4 m? (21.2695 N)
+P102. One string of a musical instrument is 61.5 cm long and has
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+19/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+a mass of 9.5 g. It is played in a
+
+Published using Google Drooocms where the speed of sound is Report abuse
+345 m/s. When the string vibrates in
+
+Learn more
+
+its second overtone, what is the
+
+wavelength of the standing wave on Updated automatically every 5
+
+PHYS161_Exam3_new.docx the string itself? (0.41 m)
+
+minutes
+
+P103. One string of a certain musical instrument is 60 cm long and has a mass of 9.5 g. It is being played in a room where the speed of sound is 344 m/s. What frequency sound does this string produce in its fundamental mode of vibration, if when vibrating in its second overtone, it produces sound of wavelength 3.7 cm? (3099.099 Hz)
+
+P104. Three pieces of string, each of length 58 cm, are joined together end to end, to make a combined string of length 174 cm. The first piece of string has mass per unit length 3.55⋅10−6 kg/cm, the second piece has mass per unit length 14.2⋅10−6 kg/cm, and the third piece has mass per unit length 0.8875⋅10−6 kg/cm. If the combined string is under tension 0.46 N, how much time does it take a transverse wave to travel the entire length of 174 cm? (0.05639 s)
+
+P105. A 6-m, 0.825-kg wire is used to support two uniform 230-N posts of equal length inclined at an angle
+of θ = 56˚. Assume that the wire is
+essentially horizontal and that the speed of sound is 344 m/s. A strong wind is blowing, causing the wire to vibrate in its 5th overtone. What is the frequency of the sound this wire produces? (11.876 Hz)
+
+P106. A 9-m, 0.825-kg wire is used to support two uniform 230-N posts of equal length inclined at an angle
+of θ = 66˚. Assume that the wire is
+essentially horizontal and that the speed of sound is 344 m/s. A strong
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+20/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+wind is blowing, causing the wire to
+Published using Google Dvoibcraste in its 7th overtone. What is Report abuse
+the wavelength of the sound this wire produces? (32.75 m)
+
+Learn more
+
+PHYS161_Exam3_new.docx
+
+Updated automatically every 5 minutes
+
+P107. A 1700-N irregular beam is hanging horizontally by its ends from the ceiling by two vertical wires (A and B), each 1.25 m long and weighing 1.5 N. The center of gravity of this beam is one-third of the way along the beam from the end where wire A is attached. If you pluck both strings at the same time at the beam, what is the time delay between the arrival of the two pulses at the ceiling? (0.00538 s)
+
+P108. A 2000-N irregular beam is hanging horizontally by its ends from the ceiling by two vertical wires, A and B, each 1.7 m long and weighing 1.95 N. The center of gravity of this beam is one-4th of the way along the beam from the end where wire A is attached. If wire A is plucked, what is the fundamental frequency at which it vibrates? The gravitational acceleration on Earth is g = 9.8 m/s². (33.2956 Hz)
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+21/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+P109. A continuous succession of
+
+Published using Google Dsoincussoidal wave pulses are
+
+Report abuse
+
+produced at one end of a very long
+
+Learn more
+
+string and travel along the length of
+
+the string. The wave has frequency
+PHYS161_Exam3_new.docx 64 Hz, amplitude 3 mm, and
+wavelength 0.51 m. How long does
+
+Updated automatically every 5 minutes
+
+it take the wave to travel a distance
+
+of 8 m along the length of the string?
+
+(0.245 s)
+
+P110. A sinusoidal transverse wave travels on a string. The string has length 8 m and mass 7.65 g. The wave speed is 26 m/s and the wavelength is 0.22 m. If the wave is to have an average power of 51 W, what must be the amplitude of the wave? (0.086 m)
+
+P111. A sinusoidal transverse wave travels on a string of length 6.6 m and mass 6.2 g. The wave speed is 23 m/s, the wavelength is 0.255 m and the amplitude is 8.2 cm. What is the average power carried by the wave? (23.3297 W)
+
+P112. A uniform cylindrical steel wire, 48 cm long and 1.52 mm in diameter, is fixed at both ends. To what tension must it be adjusted so that, when vibrating in its first overtone, it produces the note of frequency 439 Hz? Assume that it stretches an insignificant amount. Density of steel ρ = 7.8 ×103 kg/m3. (628.4680 N)
+
+P113. A uniform cylindrical steel wire is 49 cm long and 1.63 mm in diameter, and is fixed at both ends so that in its first overtone it sounds the note 451 Hz. What is the mass of this wire? The density of steel is ρ = 7.95×10³ kg/m³. (0.00812883 kg)
+
+P114. A musician tunes the string of her instrument to a fundamental frequency of 74 Hz. The vibrating portion of the string is 0.66 m long and has a mass of 14.7 g. With what tension must the musician stretch it? (212.51 N)
+
+Sound
+P115. As the train passes the crossing, the receiver at the crossing notices how the sound of the train's whistle changes, with frequency
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+22/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+decreasing from 547 Hz on
+
+Published using Google Daopcpsroach to 475 Hz on departure. Report abuse
+Using 333 m/s for the speed of
+
+Learn more
+
+sound in air, calculate the speed of
+
+the train. (23.46 m/s)
+PHYS161_Exam3_new.docx
+
+Updated automatically every 5 minutes
+
+P116. A man walks down a long hall
+
+carrying a tuning fork vibrating at
+
+431 Hz, so that the sound reflects
+
+from the closed end of the hall. If the
+
+man hears 3 beats per second, how
+
+fast is the man walking? Use the
+
+velocity of sound of 340 m/s.(1.179
+
+m/s)
+
+P117. Calculate the wavelength of sound at the lower extreme of the audible range 20 Hz, when the speed of sound in air is 332 m/s. (16.6 m)
+
+P118. Calculate the wavelength of sound at the higher extreme of the audible range 20 kHz, when the speed of sound in air is 336 m/s. (0.0168 m)
+
+P119. Calculate the sound intensity level in decibels for a sound wave traveling in air at 339 m/s and having a pressure amplitude of 0.82 Pa. Air density is 1.29 kg/m3. I0=10−12 W/m2 (88.858 dB)
+
+P120. Calculate the intensity of a sound wave traveling in air at 335.5 m/s and having a pressure amplitude of 0.8 Pa. The density of air is 1.22 kg/m³. (0.000781804 W)
+
+P121. An organ pipe has two successive harmonics with frequencies 555 Hz and 925 Hz. What is the fundamental frequency? (185 Hz)
+
+P122. An organ pipe that is open at one end and closed at the other has two successive harmonics with frequencies {f1} Hz and {f2} Hz. Which harmonic is the {f1} Hz one? Give the harmonic number. (11)
+
+P123. An organ pipe has two successive harmonics with frequencies 732 Hz and 915 Hz. What is the fundamental frequency? (183 Hz)
+
+P124. An organ pipe has two successive harmonics with frequencies 555 Hz and 925 Hz.
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+23/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+What is the length of the pipe?
+Published using Google DSopcesed of sound in air is 344 m/s.
+(0.465 m)
+
+Report abuse
+
+Learn more
+
+P125. An organ pipe that is open at
+PHYS161_Exam3_new.docx one end and closed at the other is
+0.52 m long and has two successive harmonics with frequencies {f1} Hz and {f2} Hz. What is the speed of sound in the air inside the pipe? (347.5 m/s)
+
+Updated automatically every 5 minutes
+
+P126. An organ pipe has two successive harmonics with frequencies 582 Hz and 776 Hz. What is the length of the pipe? Speed of sound in air is 344 m/s. (0.8866 m)
+
+P127. The sound from a trumpet radiates uniformly in all directions. At a distance of 4 m from the trumpet the sound intensity level is 50 dB. At what distance the sound intensity level is 20 dB? I0=10−12 W/m2. (126.49 m)
+
+P128. The sound from a trumpet radiates uniformly in all directions. At a distance of 3.5 m from the trumpet the sound intensity level is 73 dB. What is the sound intensity level at a distance of 74 m? (46.4967 dB)
+
+P129. The sound from a trumpet radiates uniformly in all directions. At a distance of 7 m from the trumpet the sound intensity level is 70 dB. What is the pressure amplitude at this distance? The air density at 20˚C is 1.2 kg/m3 and speed of sound is 343 m/s. I0=10−12 W/m2. (0.0907 Pa)
+
+P130. Two organ pipes, open at one end but closed at the other, are each 1.28 m long. One is now lengthened by 1 cm. Find the frequency of the beat they produce when playing together in their fundamental mode. Speed of sound in the air is 344 m/s. (0.521 Hz)
+
+P131. An organ pipe that is open at one end but closed at the other is 1.41 m long. Find the frequency of its fundamental mode. The speed of sound in air is 339 m/s. (60.1064 Hz)
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+24/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+P132. A bat flies toward a wall,
+
+Published using Google Deomcitsting a steady sound of
+
+Report abuse
+
+frequency 2.1 kHz. This bat hears its
+
+Learn more
+
+own sound plus the sound reflected
+
+by the wall. How fast should the bat Updated automatically every 5
+PHYS161_Exam3_new.docx fly in order to hear a beat frequency minutes
+of 8 Hz? Use speed of sound in air v
+
+= 344 m/s. (0.654 m/s)
+
+P133. A bat flies toward a wall at 0.57 m/s, emitting a steady sound of frequency 2.15 kHz. The bat hears its own sound plus the sound reflected from the wall. What beat frequency does it hear? Use 347.5 m/s for the speed of sound in air. (7.06483 Hz)
+
+P134. A car at rest is emitting alarm sound waves of frequency 490 Hz. A motorcyclist is traveling directly away from the car. What is the magnitude of the motorcyclist's velocity if he detects a frequency of 470 Hz. Use speed of sound in air v = 344 m/s. (14.041 m/s)
+
+P135. A car at rest is emitting alarm sound waves of frequency 470 Hz. A motorcyclist is traveling directly toward the car. What is the magnitude of the motorcyclist's velocity if he detects a frequency of 608 Hz? Use 341.5 m/s for the speed of sound in air. (100.27 m/s)
+
+P136. On a clear day a person sees a jet plane flying overhead flying at a constant altitude of 8 km. The person hears the sonic boom at time 0.9 s after the plane passes directly overhead. Assuming that the speed of sound v = 344 m/s is the same at all altitudes, calculate the speed of the plane. (344.258 m/s)
+
+P137. Two guitarists attempt to play the same note of wavelength 7.3 cm at the same time, but one of the instruments is slightly out of tune and plays a note of wavelength 7.32 cm instead. What is the frequency of the beat these musicians hear when they play together? The speed of sound in air is v = 344 m/s. (12.875 Hz)
+
+P138. Two guitarists try to play the same note at the same time. One plays a note of wavelength 7.1 cm; the other is slightly out of tune and they hear a beat of 13.45 Hz, the
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+25/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+out-of-tune note being the lower in
+
+Published using Google Dfroecqsuency. What is the wavelength oRf eport abuse
+the out-of-tune note? The speed of
+
+Learn more
+
+sound in air is 345.5 m/s.
+
+(0.0711968 m)
+PHYS161_Exam3_new.docx
+P139. In a liquid with density 1100
+
+Updated automatically every 5 minutes
+
+kg/m3, longitudinal waves with
+
+frequency 275 Hz are found to have
+
+wavelength 8 m. Calculate the bulk
+
+modulus of the liquid. (5324000000
+
+Pa)
+
+P140. A metal bar with a length of 1 m has density 6200 kg/m3. Longitudinal sound waves take 4.3x10−4 s to travel from one end of the bar to the other. What is Young's modulus for this metal? (33531638723.63 Pa)
+
+P141. A 88 m long brass rod is stuck at one end. A person at the other end hears two sounds as a result of two longitudinal waves, one traveling in the metal rod and the other traveling in the air. What is the time interval between the two sounds? The speed of sound in air is 344 m/s. Young's modulus of the brass is 9x1010 Pa and density of the brass is 8600 kg/m3. (0.229 s)
+
+P142. A uniform 150-N bar is supported horizontally by two identical wires A and B. A small 185N cube of lead is placed 3/4 of the way from A to B. The wires are each 56 cm long and have a mass of 6 g. If both of them are simultaneously plucked at the center, what is the frequency of the beats that they will produce when vibrating in their fundamental? (31.129 Hz)
+
+P143. A uniform 135-N bar is supported horizontally by two identical wires, A and B, attached at its ends. Each wire is 57 cm long and has a mass of 7.6 g. A small 175-N cube of lead is placed a fraction 0.7 of the way from A to B. If wire B is plucked, what is the
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+26/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+fundamental frequency at which it
+
+Published using Google Dvoibcrastes? (104.713 Hz)
+
+Report abuse
+
+Learn more
+
+PHYS161_Exam3_new.docx
+
+Updated automatically every 5 minutes
+
+P144. One type of steel has a density of 7.8×103 kg/m3 and a breaking stress of 7×108 N/m2. A cylindrical guitar string is to be made of 6 g of this steel. What is the length of the longest and thinnest string that can be placed under a tension of 930 N without breaking? (0.579 m)
+
+P145. One type of steel has a density of 7.8×103 kg/m3 and a breaking stress of 7×108 N/m2. A cylindrical guitar string is to be made of 6 g of this steel. What is the radius of the longest and thinnest string that can be placed under a tension of 780 N without breaking? (0.0005956 m)
+
+P146. The sound source of a ship's sonar system operates at a frequency of 22 kHz. The speed of sound in water is 1471 m/s. What is the wavelength of the waves emitted by the source? (0.06686 m)
+
+P147. The sound source of a ship's sonar system operates at a frequency of 24.5 kHz. The speed of sound in water is 1490 m/s. How long does it take a pulse to travel from the ship to a target 830 m away and back? (1.11409 s)
+
+P148. The sound source of a ship's sonar system operates at a frequency of 21 kHz. The speed of sound in water is 1488 m/s. Calculate the absolute value of the difference in frequency between the directly radiated waves and the waves reflected from a whale traveling directly toward the ship at 4.3 m/s. The ship is at rest in the water. (121.72 Hz)
+
+P149. A police siren of frequency 24 kHz is attached to a vibrating platform. The platform and siren
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+27/28
+
+10/25/26, 2:00 PM
+
+PHYS161_Exam3_new.docx
+
+oscillate up and down in simple
+
+Published using Google Dhoacrmsonic motion with amplitude 3 Report abuse
+cm and frequency 7 Hz. Find the
+
+Learn more
+
+maximum sound frequency that you
+
+would hear at a position directly
+
+Updated automatically every 5
+
+PHYS161_Exam3_new.docx above the siren. Use 340 m/s for the minutes
+
+speed of sound in air. (24093.50 Hz)
+
+P150. A police siren of frequency 20.5 kHz is attached to a vibrating platform. The platform and siren oscillate up and down in simple harmonic motion with amplitude 3.1 cm and frequency 8.5 Hz. Find the minimum sound frequency that you would hear at a position directly above the siren. Use 338.5 m/s for the speed of sound in air. (20400.2 Hz)
+
+https://docs.google.com/document/d/e/2PACX-1vQiMky07B3LV5YD_cNCNvUn-BBeQgS5ykqIJjO2kLLt14bj_Lr5HTaLOFZc4L7SrQ/pub
+
+28/28
+
+

@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { ChevronDown, ChevronRight } from 'lucide-react'
 import { QUESTION_BANK } from '../lib/questionBank'
-import { EXAM_SET_LABELS, TOPIC_EXAM_SET, TOPIC_LABELS, type ExamSet, type Topic } from '../types/question'
+import { EXAM_SETS, EXAM_SET_LABELS, TOPIC_EXAM_SET, TOPIC_LABELS, type ExamSet, type Topic } from '../types/question'
 import type { QuestionVariant } from '../types/question'
 import { mulberry32 } from '../lib/physics/random'
 import { Card } from '../components/ui/Card'
@@ -9,7 +9,6 @@ import { Badge } from '../components/ui/Badge'
 import { SolutionSteps } from '../components/SolutionSteps'
 import { DiagramRenderer } from '../components/diagrams/DiagramRenderer'
 
-const EXAM_SETS: ExamSet[] = ['exam1', 'exam2']
 const ALL_TOPICS = Object.keys(TOPIC_LABELS) as Topic[]
 
 export function QuestionBankPage() {
@@ -58,7 +57,7 @@ export function QuestionBankPage() {
       <div>
         <h1 className="text-2xl font-bold text-navy-950">Question Bank</h1>
         <p className="text-navy-600 text-sm mt-1">
-          {QUESTION_BANK.length} question templates across both exam sets. Expand a row to see a freshly generated variant (developer/debug view).
+          {QUESTION_BANK.length} question templates across all exam sets. Expand a row to see a freshly generated variant (developer/debug view).
         </p>
       </div>
 

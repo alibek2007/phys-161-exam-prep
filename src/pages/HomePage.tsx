@@ -8,10 +8,8 @@ import { storage } from '../lib/storage'
 import { computeDashboardStats } from '../lib/analyticsEngine'
 import { generateExam } from '../lib/examEngine'
 import { QUESTION_BANK } from '../lib/questionBank'
-import { EXAM_SET_LABELS, EXAM_SET_TAGLINES, TOPIC_LABELS, TOPIC_EXAM_SET, type ExamSet } from '../types/question'
+import { EXAM_SETS, EXAM_SET_LABELS, EXAM_SET_TAGLINES, TOPIC_LABELS, TOPIC_EXAM_SET, type ExamSet } from '../types/question'
 import { useToast } from '../components/ui/Toast'
-
-const EXAM_SETS: ExamSet[] = ['exam1', 'exam2']
 
 export function HomePage() {
   const navigate = useNavigate()
@@ -20,7 +18,7 @@ export function HomePage() {
   const stats = useMemo(() => computeDashboardStats(history), [history])
 
   const questionCounts = useMemo(() => {
-    const counts: Record<ExamSet, number> = { exam1: 0, exam2: 0 }
+    const counts: Record<ExamSet, number> = { exam1: 0, exam2: 0, exam3: 0 }
     for (const q of QUESTION_BANK) counts[TOPIC_EXAM_SET[q.topic]]++
     return counts
   }, [])
@@ -44,11 +42,11 @@ export function HomePage() {
           Master physics. <span className="text-accent-500">Under exam conditions.</span>
         </h1>
         <p className="text-navy-700 text-lg max-w-xl">
-          7 problems. 40 minutes. {QUESTION_BANK.length}+ exercises across two exam sets. Unlimited randomized attempts.
+          7 problems. 40 minutes. {QUESTION_BANK.length}+ exercises across three exam sets. Unlimited randomized attempts.
         </p>
       </section>
 
-      <section className="grid sm:grid-cols-2 gap-6">
+      <section className="grid md:grid-cols-3 gap-6">
         {EXAM_SETS.map((examSet) => (
           <Card key={examSet} className="p-6 flex flex-col gap-4">
             <div>

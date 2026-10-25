@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "validate:bank": "tsx scripts/validateBank.ts",
     "validate:spotcheck": "tsx scripts/spotCheck.ts",
-    "validate:units": "tsx scripts/validateUnits.ts"
+    "validate:units": "tsx scripts/validateUnits.ts",
+    "validate:source": "tsx scripts/validateSource.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
