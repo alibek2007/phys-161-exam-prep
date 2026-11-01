@@ -218,23 +218,6 @@ export const soundQuestions = [
       steps('f_2-f_1=2f_{fund}\\ \\Rightarrow\\ f_{fund}=\\dfrac{f_2-f_1}{2}', ans('f_{fund}', a, UNIT.Hz), 'Check which kind of pipe it is: the frequencies are in the ratio 3:5 (odd harmonics), so this is a pipe closed at one end, where successive harmonics differ by twice the fundamental. (For a pipe open at both ends, successive harmonics differ by the fundamental itself, e.g. 4:5.)'),
   }),
 
-  defineQuestion('PHY3_OP02', {
-    sourceRef: 'P122',
-    topic: 'organPipes',
-    difficulty: 2,
-    params: { f0: { min: 40, max: 90, step: 1 }, n: { min: 5, max: 15, step: 2 } },
-    source: { params: { f0: 50, n: 11 }, answer: 11 },
-    prompt: (p) =>
-      `An organ pipe that is open at one end and closed at the other has two successive harmonics with frequencies ${fmt(p.n * p.f0)} Hz and ${fmt((p.n + 2) * p.f0)} Hz. Which harmonic is the ${fmt(p.n * p.f0)} Hz one? Give the harmonic number.`,
-    compute: (p) => {
-      const f1 = p.n * p.f0
-      const f2 = (p.n + 2) * p.f0
-      return numeric((2 * f1) / (f2 - f1), '')
-    },
-    solution: (p, a) =>
-      steps('f_{fund}=\\dfrac{f_2-f_1}{2},\\quad n=\\dfrac{f_1}{f_{fund}}', ans('n', a), 'In a closed pipe only odd harmonics exist and successive ones differ by 2f₁.'),
-  }),
-
   defineQuestion('PHY3_OP03', {
     sourceRef: 'P123',
     topic: 'organPipes',
@@ -258,26 +241,6 @@ export const soundQuestions = [
     compute: (p) => numeric(p.v / (4 * p.f0), 'm'),
     solution: (p, a) =>
       steps('f_{fund}=\\dfrac{f_2-f_1}{2},\\quad L=\\dfrac{v}{4f_{fund}}', ans('L', a, UNIT.m), 'Odd harmonics only (ratio of two odd numbers) means a pipe closed at one end, where f₁ = v/4L.'),
-  }),
-
-  defineQuestion('PHY3_OP05', {
-    sourceRef: 'P125',
-    topic: 'organPipes',
-    difficulty: 2,
-    params: { L: { min: 0.4, max: 0.8, step: 0.01 }, v: { min: 338, max: 348, step: 0.5 }, n: { min: 3, max: 9, step: 2 } },
-    source: { params: { L: 0.52, v: 347.5, n: 3 }, answer: 347.5 },
-    prompt: (p) => {
-      const f1 = Number(((p.n * p.v) / (4 * p.L)).toFixed(1))
-      const f2 = Number((((p.n + 2) * p.v) / (4 * p.L)).toFixed(1))
-      return `An organ pipe that is open at one end and closed at the other is ${fmt(p.L)} m long and has two successive harmonics with frequencies ${fmt(f1)} Hz and ${fmt(f2)} Hz. What is the speed of sound in the air inside the pipe?`
-    },
-    compute: (p) => {
-      const f1 = Number(((p.n * p.v) / (4 * p.L)).toFixed(1))
-      const f2 = Number((((p.n + 2) * p.v) / (4 * p.L)).toFixed(1))
-      return numeric(2 * p.L * (f2 - f1), 'm/s')
-    },
-    solution: (p, a) =>
-      steps('f_2-f_1=\\dfrac{v}{2L} \\Rightarrow v=2L(f_2-f_1)', ans('v', a, UNIT.ms), 'In a closed pipe successive harmonics (odd n) differ by 2f₁ = v/2L.'),
   }),
 
   defineQuestion('PHY3_OP06', {

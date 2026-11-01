@@ -80,10 +80,12 @@ for (const q of QUESTION_BANK) {
 }
 
 const exam3Refs = QUESTION_BANK.filter((q) => TOPIC_EXAM_SET[q.topic] === 'exam3').map((q) => q.sourceRef)
+const REMOVED_BY_USER = new Set([87, 105, 106, 122, 125])
 for (let n = 1; n <= 150; n++) {
+  const expectedCount = REMOVED_BY_USER.has(n) ? 0 : 1
   const count = exam3Refs.filter((ref) => ref === `P${n}`).length
-  if (count !== 1) {
-    console.log(`COVERAGE P${n} appears ${count} times in Exam 3`)
+  if (count !== expectedCount) {
+    console.log(`COVERAGE P${n} appears ${count} times in Exam 3 (expected ${expectedCount})`)
     failures++
   }
 }

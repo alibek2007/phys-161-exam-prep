@@ -1,7 +1,7 @@
 import { defineQuestion } from '../defineQuestion'
 import { fmt, sciText } from '../../format'
 import * as wave from '../../physics/waves'
-import { ans, exerciseImage, numeric, ordinal, steps, UNIT } from './helpers'
+import { ans, exerciseImage, numeric, steps, UNIT } from './helpers'
 
 const DENOMINATOR_WORDS: Record<number, string> = { 3: 'third', 4: 'fourth', 5: 'fifth' }
 
@@ -180,23 +180,6 @@ export const waveQuestions = [
   }),
 
   // ---------- Waves on strings ----------
-  defineQuestion('PHY3_SW01', {
-    sourceRef: 'P87',
-    topic: 'stringWaves',
-    difficulty: 3,
-    params: { T: { min: 100, max: 250, step: 5 }, L: { min: 1.5, max: 3, step: 0.5 }, rho: { min: 1, max: 1.2, step: 0.05 } },
-    source: { params: { T: 175, L: 2, rho: 1.1 }, answer: 0.006112 },
-    prompt: (p) =>
-      `A nylon string is stretched between two rigid columns such that the tension in it is ${fmt(p.T)} N. The string is of length L = ${fmt(p.L)} m and has the cross-sectional area that varies with distance as A(x) = (1+x/L)×10⁻⁶, where A is in meters squared and x is in meters. Determine the time it takes for a transverse pulse in the string to travel from one end to the other. The density of nylon is ${fmt(p.rho)} g/cm³.`,
-    compute: (p) => numeric(wave.taperedStringTravelTime(p.T, p.L, p.rho * 1000, 1e-6), 's'),
-    solution: (p, a) =>
-      steps(
-        'v(x)=\\sqrt{\\dfrac{T}{\\rho A(x)}},\\quad t=\\int_0^L\\dfrac{dx}{v}=\\sqrt{\\dfrac{\\rho A_0}{T}}\\,L\\int_0^1\\sqrt{1+u}\\,du=\\sqrt{\\dfrac{\\rho A_0}{T}}\\,L\\,\\tfrac23\\left(2^{3/2}-1\\right)',
-        ans('t', a, UNIT.s),
-        'The linear density changes along the string, μ(x) = ρA(x), so the wave speed does too; add up dx/v along the string.',
-      ),
-  }),
-
   defineQuestion('PHY3_SW02', {
     sourceRef: 'P90',
     topic: 'stringWaves',
@@ -430,45 +413,6 @@ export const waveQuestions = [
       `One string of a certain musical instrument is ${fmt(p.Lcm)} cm long and has a mass of ${fmt(p.mg)} g. It is being played in a room where the speed of sound is ${fmt(p.vs)} m/s. What frequency sound does this string produce in its fundamental mode of vibration, if when vibrating in its second overtone, it produces sound of wavelength ${fmt(p.lcm)} cm?`,
     compute: (p) => numeric(p.vs / (p.lcm / 100) / 3, 'Hz'),
     solution: (p, a) => steps('f_3=\\dfrac{v_{sound}}{\\lambda},\\quad f_1=\\dfrac{f_3}{3}', ans('f_1', a, UNIT.Hz)),
-  }),
-
-  defineQuestion('PHY3_ST09', {
-    sourceRef: 'P105',
-    topic: 'standingWaves',
-    difficulty: 3,
-    params: { L: { min: 5, max: 8, step: 1 }, m: { min: 0.6, max: 1, step: 0.025 }, W: { min: 200, max: 260, step: 5 }, theta: { min: 50, max: 70, step: 1 }, n: { min: 2, max: 6, step: 1 } },
-    source: { params: { L: 6, m: 0.825, W: 230, theta: 56, n: 5 }, answer: 11.876 },
-    prompt: (p) =>
-      `A ${fmt(p.L)}-m, ${fmt(p.m)}-kg wire is used to support two uniform ${fmt(p.W)}-N posts of equal length inclined at an angle of θ = ${fmt(p.theta)}˚. Assume that the wire is essentially horizontal and that the speed of sound is 344 m/s. A strong wind is blowing, causing the wire to vibrate in its ${ordinal(p.n)} overtone. What is the frequency of the sound this wire produces?`,
-    compute: (p) => {
-      const T = wave.postWireTension(p.W, (p.theta * Math.PI) / 180)
-      return numeric(((p.n + 1) * wave.stringSpeed(T, p.m, p.L)) / (2 * p.L), 'Hz')
-    },
-    solution: (p, a) =>
-      steps(
-        'T\\,(\\ell\\sin\\theta)=W\\,\\tfrac{\\ell}{2}\\cos\\theta \\Rightarrow T=\\dfrac{W}{2\\tan\\theta},\\quad v=\\sqrt{\\dfrac{TL}{m}},\\quad f=\\dfrac{(n+1)v}{2L}',
-        ans('f', a, UNIT.Hz),
-        'Torque about the pivot of one post: the wire pulls horizontally at the top (arm ℓ sin θ), the weight acts at the middle (arm ½ℓ cos θ). The n-th overtone is the (n+1)-th harmonic. The sound has the same frequency as the wire.',
-      ),
-    diagram: () => exerciseImage('p105-106'),
-  }),
-
-  defineQuestion('PHY3_ST10', {
-    sourceRef: 'P106',
-    topic: 'standingWaves',
-    difficulty: 3,
-    params: { L: { min: 8, max: 10, step: 0.5 }, m: { min: 0.6, max: 1, step: 0.025 }, W: { min: 200, max: 260, step: 5 }, theta: { min: 60, max: 70, step: 1 }, n: { min: 5, max: 8, step: 1 } },
-    source: { params: { L: 9, m: 0.825, W: 230, theta: 66, n: 7 }, answer: 32.75 },
-    prompt: (p) =>
-      `A ${fmt(p.L)}-m, ${fmt(p.m)}-kg wire is used to support two uniform ${fmt(p.W)}-N posts of equal length inclined at an angle of θ = ${fmt(p.theta)}˚. Assume that the wire is essentially horizontal and that the speed of sound is 344 m/s. A strong wind is blowing, causing the wire to vibrate in its ${ordinal(p.n)} overtone. What is the wavelength of the sound this wire produces?`,
-    compute: (p) => {
-      const T = wave.postWireTension(p.W, (p.theta * Math.PI) / 180)
-      const f = ((p.n + 1) * wave.stringSpeed(T, p.m, p.L)) / (2 * p.L)
-      return numeric(344 / f, 'm')
-    },
-    solution: (p, a) =>
-      steps('T=\\dfrac{W}{2\\tan\\theta},\\ v=\\sqrt{\\dfrac{TL}{m}},\\ f=\\dfrac{(n+1)v}{2L},\\quad \\lambda_{sound}=\\dfrac{344}{f}', ans('\\lambda', a, UNIT.m), 'The wire\'s vibration frequency is also the frequency of the sound; its wavelength follows from the speed of sound.'),
-    diagram: () => exerciseImage('p105-106'),
   }),
 
   defineQuestion('PHY3_ST11', {

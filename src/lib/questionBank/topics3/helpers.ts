@@ -45,9 +45,3 @@ export const UNIT = {
 export const exerciseImage = (name: string): DiagramSpec => ({ kind: 'exerciseImage', props: { src: `/exercise-images-3/${name}.png` } })
 
 export const G_TEXT = '6.67×10⁻¹¹ N⋅m²/kg²'
-
-export function ordinal(n: number): string {
-  const teen = n % 100 >= 11 && n % 100 <= 13
-  const suffix = teen ? 'th' : ({ 1: 'st', 2: 'nd', 3: 'rd' } as Record<number, string>)[n % 10] ?? 'th'
-  return `${n}${suffix}`
-}
