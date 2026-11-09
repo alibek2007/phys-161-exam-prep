@@ -8,7 +8,10 @@ import { TOPIC_EXAM_SET } from '../src/types/question'
  * appear in the source wording (transcription typos).
  */
 
-const SOURCE_FILES: Record<string, string> = { exam3: 'docs/source_exercises_exam3.txt' }
+const SOURCE_FILES: Record<string, string> = {
+  exam3: 'docs/source_exercises_exam3.txt',
+  exam4: 'docs/source_exercises_exam4.txt',
+}
 
 const SUPER_TO_ASCII: Record<string, string> = {
   '⁰': '0', '¹': '1', '²': '2', '³': '3', '⁴': '4', '⁵': '5', '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9',
@@ -79,14 +82,17 @@ for (const q of QUESTION_BANK) {
   }
 }
 
-const exam3Refs = QUESTION_BANK.filter((q) => TOPIC_EXAM_SET[q.topic] === 'exam3').map((q) => q.sourceRef)
-const REMOVED_BY_USER = new Set([87, 105, 106, 122, 125])
-for (let n = 1; n <= 150; n++) {
-  const expectedCount = REMOVED_BY_USER.has(n) ? 0 : 1
-  const count = exam3Refs.filter((ref) => ref === `P${n}`).length
-  if (count !== expectedCount) {
-    console.log(`COVERAGE P${n} appears ${count} times in Exam 3 (expected ${expectedCount})`)
-    failures++
+/** Problems the user asked to drop from a set. */
+const REMOVED_BY_USER: Record<string, Set<number>> = { exam3: new Set([87, 105, 106, 122, 125]), exam4: new Set() }
+for (const examSet of Object.keys(SOURCE_FILES)) {
+  const refs = QUESTION_BANK.filter((q) => TOPIC_EXAM_SET[q.topic] === examSet).map((q) => q.sourceRef)
+  for (let n = 1; n <= 150; n++) {
+    const expectedCount = REMOVED_BY_USER[examSet].has(n) ? 0 : 1
+    const count = refs.filter((ref) => ref === `P${n}`).length
+    if (count !== expectedCount) {
+      console.log(`COVERAGE P${n} appears ${count} times in ${examSet} (expected ${expectedCount})`)
+      failures++
+    }
   }
 }
 

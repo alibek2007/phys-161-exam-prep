@@ -26,6 +26,10 @@ import { gravitationQuestions } from './topics3/gravitation'
 import { oscillationQuestions } from './topics3/oscillations'
 import { waveQuestions } from './topics3/waves'
 import { soundQuestions } from './topics3/sound'
+import { heatQuestions } from './topics4/heat'
+import { kineticQuestions } from './topics4/kinetic'
+import { firstLawQuestions } from './topics4/firstLaw'
+import { secondLawQuestions } from './topics4/secondLaw'
 
 export const QUESTION_BANK: PhysicsQuestion[] = [
   ...unitsQuestions,
@@ -55,6 +59,10 @@ export const QUESTION_BANK: PhysicsQuestion[] = [
   ...oscillationQuestions,
   ...waveQuestions,
   ...soundQuestions,
+  ...heatQuestions,
+  ...kineticQuestions,
+  ...firstLawQuestions,
+  ...secondLawQuestions,
 ]
 
 export const QUESTION_BY_ID: Map<string, PhysicsQuestion> = new Map(QUESTION_BANK.map((q) => [q.id, q]))

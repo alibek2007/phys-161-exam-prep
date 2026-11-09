@@ -1,17 +1,19 @@
-export type ExamSet = 'exam1' | 'exam2' | 'exam3'
+export type ExamSet = 'exam1' | 'exam2' | 'exam3' | 'exam4'
 
-export const EXAM_SETS: ExamSet[] = ['exam1', 'exam2', 'exam3']
+export const EXAM_SETS: ExamSet[] = ['exam1', 'exam2', 'exam3', 'exam4']
 
 export const EXAM_SET_LABELS: Record<ExamSet, string> = {
   exam1: 'Exam 1',
   exam2: 'Exam 2',
   exam3: 'Exam 3',
+  exam4: 'Exam 4',
 }
 
 export const EXAM_SET_TAGLINES: Record<ExamSet, string> = {
   exam1: 'Units, vectors, kinematics, circular motion & Newton’s laws',
   exam2: 'Work, energy, momentum, rotation, torque & angular momentum',
   exam3: 'Gravitation, oscillations, waves & sound',
+  exam4: 'Heat, kinetic theory of gases & thermodynamics',
 }
 
 export type Exam1Topic =
@@ -59,7 +61,24 @@ export type Exam3Topic =
   | 'organPipes'
   | 'beatsMedia'
 
-export type Topic = Exam1Topic | Exam2Topic | Exam3Topic
+export type Exam4Topic =
+  | 'thermalExpansion'
+  | 'heatEnergy'
+  | 'calorimetry'
+  | 'heatConduction'
+  | 'gasLaws'
+  | 'molecularSpeed'
+  | 'moleculesMoles'
+  | 'constantPressure'
+  | 'isothermalWork'
+  | 'pvDiagrams'
+  | 'adiabatic'
+  | 'firstLaw'
+  | 'carnotEngines'
+  | 'entropy'
+  | 'engineEfficiency'
+
+export type Topic = Exam1Topic | Exam2Topic | Exam3Topic | Exam4Topic
 
 export const TOPIC_LABELS: Record<Topic, string> = {
   units: 'Units & Conversions',
@@ -101,6 +120,21 @@ export const TOPIC_LABELS: Record<Topic, string> = {
   soundIntensity: 'Sound Intensity',
   organPipes: 'Organ Pipes',
   beatsMedia: 'Beats & Sound in Media',
+  thermalExpansion: 'Thermal Expansion',
+  heatEnergy: 'Heat & Specific Heat',
+  calorimetry: 'Calorimetry & Phase Changes',
+  heatConduction: 'Heat Conduction',
+  gasLaws: 'Ideal Gas Law',
+  molecularSpeed: 'Molecular Speeds & Energy',
+  moleculesMoles: 'Moles, Mass & Molecules',
+  constantPressure: 'Constant-Pressure Processes',
+  isothermalWork: 'Isothermal Processes',
+  pvDiagrams: 'PV Diagrams & Cycles',
+  adiabatic: 'Adiabatic Processes',
+  firstLaw: 'First Law & Internal Energy',
+  carnotEngines: 'Carnot Engines & Refrigerators',
+  entropy: 'Entropy',
+  engineEfficiency: 'Engine Efficiency & Power',
 }
 
 export const TOPIC_EXAM_SET: Record<Topic, ExamSet> = {
@@ -143,6 +177,21 @@ export const TOPIC_EXAM_SET: Record<Topic, ExamSet> = {
   soundIntensity: 'exam3',
   organPipes: 'exam3',
   beatsMedia: 'exam3',
+  thermalExpansion: 'exam4',
+  heatEnergy: 'exam4',
+  calorimetry: 'exam4',
+  heatConduction: 'exam4',
+  gasLaws: 'exam4',
+  molecularSpeed: 'exam4',
+  moleculesMoles: 'exam4',
+  constantPressure: 'exam4',
+  isothermalWork: 'exam4',
+  pvDiagrams: 'exam4',
+  adiabatic: 'exam4',
+  firstLaw: 'exam4',
+  carnotEngines: 'exam4',
+  entropy: 'exam4',
+  engineEfficiency: 'exam4',
 }
 
 export type Difficulty = 1 | 2 | 3

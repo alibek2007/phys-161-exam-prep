@@ -20,7 +20,7 @@ export function parseStudentAnswer(raw: string): ParsedAnswer | null {
 
 /** Normalizes a unit string so common keyboard-friendly variants compare equal (m/s^2 = m/s2 = m/s²). */
 function normalizeUnit(unit: string): string {
-  return unit
+  const normalized = unit
     .trim()
     .toLowerCase()
     .replace(/\s+/g, '')
@@ -30,6 +30,9 @@ function normalizeUnit(unit: string): string {
     .replace(/³/g, '3')
     .replace(/\^/g, '')
     .replace(/[·*]/g, '')
+    .replace(/[()]/g, '')
+    .replace(/deg(?=[ck])/g, '')
+  return normalized === 'j/s' ? 'w' : normalized
 }
 
 /** A blank expected unit (dimensionless answer) always matches — nothing for the student to enter. */
